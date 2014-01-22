@@ -94,57 +94,46 @@
             </article>
         </div><!-- End Window Container -->
         <footer>
-            <p class="address"><a href="https://maps.google.com/maps?q=1354+South+Shelby+Street+Indianapolis,+IN+46203&ie=UTF-8&hq=&hnear=0x886b5a79486129b5:0x9517e6637048ef94,1354+Shelby+St,+Indianapolis,+IN+46203&gl=us&ei=m7PdUqHvJKmI2wWc4ICABQ&ved=0CCsQ8gEwAA"><span class="street">1354 South Shelby Street <span class="city-state">Indianapolis, IN</span> <span class="zip-code">46203</span></a><br /><span class="phone-number">(317) 622-8425</span></p>
+            <p class="address"><a href="https://maps.google.com/maps?q=1354+South+Shelby+Street+Indianapolis,+IN+46203&ie=UTF-8&hq=&hnear=0x886b5a79486129b5:0x9517e6637048ef94,1354+Shelby+St,+Indianapolis,+IN+46203&gl=us&ei=m7PdUqHvJKmI2wWc4ICABQ&ved=0CCsQ8gEwAA" target="_blank"><span class="street">1354 South Shelby Street <span class="city-state">Indianapolis, IN</span> <span class="zip-code">46203</span></a><br /><span class="phone-number">(317) 622-8425</span></p>
             <p class="legal">Copyright Liberation Roasting Company<span class="design-credit"><br />Website courtesy of <a href="http://www.stmykal.com">Mike Packer</a></span></p>
             <div id="connect">
                 <ul>
-                    <li class="connect-facebook"><a href="https://www.facebook.com/LiberationRoasting"><i class="fa fa-facebook-square"></i><span class="aural">Facebook</span></a>
+                    <li class="connect-facebook"><a href="https://www.facebook.com/LiberationRoasting" target="_blank"><i class="fa fa-facebook-square"></i><span class="aural">Facebook</span></a>
                     </li>
-                    <li class="connect-twitter"><a href="http://twitter.com/Liberationroast"><i class="fa fa-twitter-square"></i><span class="aural">Twitter</span></a>
+                    <li class="connect-twitter"><a href="http://twitter.com/LiberationRoast" target="_blank"><i class="fa fa-twitter-square"></i><span class="aural">Twitter</span></a>
                     </li>
-                    <li class="connect-google"><a href="https://plus.google.com/+LiberationRoasting/"><i class="fa fa-google-plus-square"></i><span class="aural">Google+</span></a>
+                    <li class="connect-google"><a href="https://plus.google.com/+LiberationRoasting/" target="_blank"><i class="fa fa-google-plus-square"></i><span class="aural">Google+</span></a>
                     </li>
                     <li class="connect-email"><a href="mailto:vickie@liberationroasting.com"><i class="fa fa-envelope"></i><span class="aural">E-mail</span></a>
                     </li>
                 </ul>
             </div>
         </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+    <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script> -->
-        <script>
+      ga('create', 'UA-39684191-1', 'liberationroasting.com');
+      ga('send', 'pageview');
+    </script>
+    <script>
+        $(document).ready(function() {
 
-            $(document).ready(function() {
+            $("a.menu-entry").click(function() {
 
-                $("a.menu-entry").click(function() { 
+                $(".selected").removeClass("selected");
+                $(this).addClass("selected");
+                $(".content").removeClass("selected");
 
-                    $(".selected").removeClass("selected");
-                    $(this).addClass("selected");
-                    $(".content").removeClass("selected");
+                var content_show = $(this).attr("title");
+                $("#"+content_show).addClass("selected");
 
-                    var content_show = $(this).attr("title");
-                    $("#"+content_show).addClass("selected");
-                });
-
+                $("p.tagline").addClass("move-over");
             });
-
-            $(document).ready(function(){
-                $("a.menu-entry").click(function(){
-                    $("p.tagline").addClass("move-over");
-                });
-            });
-
+        });
         </script>
     </body>
 </html>
