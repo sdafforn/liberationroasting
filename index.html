@@ -1,64 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Liberation Roasting Company</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Liberation Roasting Company - Indianapolis, Indiana</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Le styles -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/all-styles.css">
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
+        <!-- Add your site or application content here -->
+        <header>
+            <h1>Liberation Roasting Company</h1>
+            <p class="tagline">Great coffee is a <em>lifestyle</em>, not an event.</p>
+        </header>
+        <nav>
+            <ul role="menu">
+                <li role="menuitem"><a href="#" title="roasts" id="menu-roasts" class="menu-entry">Roasts</a></li>
+                <li role="menuitem"><a href="#" title="hours" id="menu-hours" class="menu-entry">Hours</a></li>
+                <li role="menuitem"><a href="#" title="about" id="menu-about" class="menu-entry">About</a></li>
+            </ul>
+        </nav>
+        <div id="window" aria-live="polite">
+            <article id="intro" class="content selected">
+                <!-- This space is intentionally left blank -->
+            </article>
+            <article id="roasts" class="content">
+                <h2 class="aural">Roasts</h2>
+                <section>
+                    <ul>
+                        <li>
+                            <h3>Roast</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sollicitudin libero. Donec et felis vulputate, accumsan lectus in, adipiscing diam. Etiam ut interdum eros.</p>
+                            <p class="price"><span class="dollar">$00.00</span> per pound</p>
+                        </li>
+                        <li>
+                            <h3>Some Other Roast</h3>
+                            <p>Aliquam nec sem at ipsum suscipit suscipit. Nullam viverra vulputate sapien sit amet feugiat. Aenean dapibus dui vel purus tempor mollis. Suspendisse fermentum sem mi, aliquet suscipit felis tincidunt at.</p>
+                            <p class="price"><span class="dollar">$00.00</span> per pound</p>
+                        </li>
+                        <li>
+                            <h3>A Third Roast</h3>
+                            <p>Donec id turpis at velit porttitor ornare eget et lectus. Sed iaculis, ante eu bibendum suscipit, mauris lorem varius lectus, sed tincidunt tellus urna eu mi.</p>
+                            <p class="price"><span class="dollar">$00.00</span> per pound</p>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            <article id="hours" class="content">
+                <h2 class="aural">Location Info</h2>
+                <section id="hours-weekday">
+                    <h3>Week-Days</h3>
+                    <p><span class="day">Monday through Friday</span> 5PM - 8PM</p>
+                    <h3>Week-Ends</h3>
+                    <p><span class="day">Saturday</spam> 10AM - 6PM<br />
+                    <span class="day">Sunday</span> 10AM - 6PM</p>
+                </section>
+                <section class="location">
+                    <h3>Come See Us</h3>
+                    <p class="address"><span class="street">1354 South Shelby Street<br/>Suite C<br /><span class="city-state">Indianapolis, IN</span> <span class="zip-code">46203</span><br /><span class="phone-number">(317) 622-8425</span></p>
+                </section>
+            </article>
+            <article id="about" class="content">
+                <h2 class="aural">About The Company</h2>
+                <section id="mission">
+                    <h3>Mission Statement</h3>
+                    <p>Aliquam nec sem at ipsum suscipit suscipit. Nullam viverra vulputate sapien sit amet feugiat. Aenean dapibus dui vel purus tempor mollis. Suspendisse fermentum sem mi, aliquet suscipit felis tincidunt at.</p>
+                    <p>Aliquam nec sem at ipsum suscipit suscipit. Nullam viverra vulputate sapien sit amet feugiat. Aenean dapibus dui vel purus tempor mollis. Suspendisse fermentum sem mi, aliquet suscipit felis tincidunt at.</p>
+                </section>
+                <section id="bio-andy" class="bio">
+                    <h3>Andy</h3>
+                    <p>Donec id turpis at velit porttitor ornare eget et lectus. Sed iaculis, ante eu bibendum suscipit, mauris lorem varius lectus, sed tincidunt tellus urna eu mi.</p>
+                    <img src="assets/img/staff/andy-roasting-360x270-001.png" alt="" />
+                </section>
+                <section id="bio-scott" class="bio">
+                    <h3>Scott</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sollicitudin libero. Donec et felis vulputate, accumsan lectus in, adipiscing diam. Etiam ut interdum eros.</p>
+                    <img src="assets/img/staff/scott-roasting-360x270-001.png" alt="" />
+                </section>
+            </article>
+        </div><!-- End Window Container -->
+        <footer>
+            <p class="address"><a href="https://maps.google.com/maps?q=1354+South+Shelby+Street+Indianapolis,+IN+46203&ie=UTF-8&hq=&hnear=0x886b5a79486129b5:0x9517e6637048ef94,1354+Shelby+St,+Indianapolis,+IN+46203&gl=us&ei=m7PdUqHvJKmI2wWc4ICABQ&ved=0CCsQ8gEwAA"><span class="street">1354 South Shelby Street <span class="city-state">Indianapolis, IN</span> <span class="zip-code">46203</span></a><br /><span class="phone-number">(317) 622-8425</span></p>
+            <p class="legal">Copyright Liberation Roasting Company<span class="design-credit"><br />Website courtesy of <a href="http://www.stmykal.com">Mike Packer</a></span></p>
+            <div id="connect">
+                <ul>
+                    <li class="connect-facebook"><a href="https://www.facebook.com/LiberationRoasting"><i class="fa fa-facebook-square"></i><span class="aural">Facebook</span></a>
+                    </li>
+                    <li class="connect-twitter"><a href="http://twitter.com/Liberationroast"><i class="fa fa-twitter-square"></i><span class="aural">Twitter</span></a>
+                    </li>
+                    <li class="connect-google"><a href="https://plus.google.com/+LiberationRoasting/"><i class="fa fa-google-plus-square"></i><span class="aural">Google+</span></a>
+                    </li>
+                    <li class="connect-email"><a href="mailto:vickie@liberationroasting.com"><i class="fa fa-envelope"></i><span class="aural">E-mail</span></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
-  </head>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script> -->
+        <script>
 
-  <body>
+            $(document).ready(function() {
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="brand" href="#">Liberation Roasting Company</a>
-        </div>
-      </div>
-    </div>
+                $("a.menu-entry").click(function() { 
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span11 offset1">
-          <h2>Great coffee is a lifestyle, not an event.</h2>
-        </div><!--/span-->
-      </div><!--/row-->
-      <div class="row-fluid">
-        <div class="span11 offset1">
-          <h4>Fresh roasted coffee for Indianapolis, beginning Summer 2013</h4>
-        </div><!--/span-->
-      </div><!--/row-->
+                    $(".selected").removeClass("selected");
+                    $(this).addClass("selected");
+                    $(".content").removeClass("selected");
 
-      <hr>
+                    var content_show = $(this).attr("title");
+                    $("#"+content_show).addClass("selected");
+                });
 
-      <footer>
-          <p>&copy; Liberation Roasting Company 2014 &ndash; <a href="mailto:scott@liberationroasting.com">Info</a></p>
-      </footer>
+            });
 
-    </div><!--/.fluid-container-->
+            $(document).ready(function(){
+                $("a.menu-entry").click(function(){
+                    $("p.tagline").addClass("move-over");
+                });
+            });
 
-  </body>
+        </script>
+    </body>
 </html>
