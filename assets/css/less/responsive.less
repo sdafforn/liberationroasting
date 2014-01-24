@@ -1,0 +1,375 @@
+@import "identity";
+
+// All media queries for responsive layout... I guess
+
+// 1st break point
+// 975px by 625 pixels
+
+@media screen and (max-width:975px) {
+	
+	header {
+
+			height: 80px;
+
+		h1 {
+			width: 200px;
+			height: 180px;
+			background-size: 200px 180px;
+			top: 10px;
+			left: 25px;
+		}
+
+		p.tagline {
+			font-size: 200%;
+			font-weight: bold;
+			top: 250px;
+			left: 5%;
+			width: 90%;
+
+			&.move-over {
+				width: 200px;
+				top: 200px;
+				left: 5%;
+				font-size: 160%;
+			}
+		}
+	}
+
+	nav {
+		position: fixed;
+		top: 30px;
+		left: 260px;
+
+		ul li {
+			margin-right: 15px;
+
+			a {
+				font-size: 180%;
+			}
+		}
+	}
+
+
+	#window {
+		position: relative;
+		margin-top: 80px;
+		min-height: 100%;
+		width: 90%;
+	}
+
+	footer {
+		padding: 15px;
+	}
+}
+
+@media screen and (min-width:976px) and (max-width:10000px) and (max-height:450px)  {
+
+	header p.tagline {
+			width: auto;
+			top: 90px;
+			left: 360px;
+	}
+}
+
+
+
+
+// Next break point
+// 850px
+
+@media screen and (max-width:850px) {
+
+	article {
+		padding: 10px 10% 120px 32%;
+	}
+}
+
+
+// Next break point
+// 780px
+
+@media screen and (max-width:780px) {
+
+	header {
+		height: 62px;
+
+		h1 {
+			width: 150px;
+			height: 130px;
+			background-size: 150px 130px;
+			top: 8px;
+			left: 15px;
+		}
+		
+		p.tagline {
+			font-size: 180%;
+			font-weight: bold;
+			top: 225px;
+			width: 90%;
+
+			&.move-over {
+				width: 160px;
+				top: 140px;
+				left: 6%;
+				font-size: 140%;
+				font-weight: normal;
+			}
+		}
+	}
+	
+	nav { 
+		top: 22px;
+		left: 180px;
+		
+		ul li {
+			margin-right: 10px;
+			
+			a 	{
+				font-size: 160%;
+			}		
+		}
+
+	}
+
+	#window {
+		margin-top: 62px;
+		min-height: 100%;
+		width: 90%;
+		
+		article {
+			padding: 10px 10% 120px 32%;
+
+			h3 {
+				font-size: 190%;
+			}
+		}
+
+	}
+
+}
+
+
+@media screen and (min-width:781px) and (max-width:975px) and (max-height:450px)  {
+
+	header p.tagline {
+			width: auto;
+			top: 70px;
+			left: 262px;
+	}
+}
+
+@media screen and (max-width:650px) {
+
+	header h1 {
+			width: 150px;
+			height: 130px;
+			background-size: 125px 105px;
+			top: 8px;
+			left: 15px;
+	}
+
+	header p.tagline.move-over {
+		display: none;
+	}
+
+	nav { 
+		left: 160px;
+	}
+
+	footer p span.city-state {
+		position: absolute;
+		left: -1000px;
+	}
+
+	footer p span.zip-code {
+		position: absolute;
+		left: -1000px;
+	}
+
+}
+
+@media screen and (min-width:651px) and (max-width:780px) and (max-height:450px)  {
+
+	header p.tagline {
+			width: auto;
+			top: 45px;
+			left: 180px;
+	}
+}
+
+// Next break point
+// 550px
+
+@media screen and (max-width:550px) {
+
+	header p.tagline {
+		font-size: 180%;
+		font-weight: bold;
+		top: 225px;
+		left: 0;
+		width: 100%;
+
+		&.move-over {
+			display: none;
+		}
+	}
+
+	nav {
+		left: 150px;
+	}
+
+	#window {
+		margin-top: 62px;
+		min-height: 100%;
+		width: 100%;
+		border: none;
+		
+		article {
+			padding: 10px 10% 120px 20%;
+		}
+
+	}
+
+
+	footer span.city-state {
+		.aural;
+	}
+
+	footer span.zip-code {
+		.aural;
+	}
+
+}
+
+
+@media screen and (min-width:551px) and (max-width:650px) and (max-height:450px)  {
+
+	header p.tagline {
+			width: auto;
+			top: 46px;
+			left: 158px;
+			font-size: 160%;
+	}
+}
+
+// Next Break Point
+// 480px wide
+
+@media only screen and (max-width:480px) {
+
+	html {
+		background-image: none;
+	}
+
+	body {
+		background-color: @black;
+	}
+
+
+	header {
+
+			height: 50px;
+
+		h1 {
+			width: 100px;
+			height: 90px;
+			background-size: 100px 90px;
+			top: 5px;
+			left: 10px;
+			background-image: none;
+		}
+
+		p.tagline {
+			font-size: 220%;
+			font-weight: bold;
+			top: 100px;
+			padding: 0 16%;
+			width: 68%;
+
+			&.move-over {
+				display: none;
+			}
+		}
+	}
+
+	nav { 
+		width: 100%;
+		top: 10px;
+		left: 0;
+		text-align: center;
+
+		ul {
+			display: inline-block;
+		}
+	}
+
+	#window {
+		position: relative;
+		margin-top: 50px;
+		min-height: 100%;
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		
+		&:after {
+			content: "";
+		 	.logo-white;
+		 	background-attachment: fixed;
+			background-position: center 40%;
+			background-size: 75%;
+		 	opacity: 0.15;
+		 	top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: -1;
+		}
+		
+		article {
+			padding: 10px 10% 120px 10%;
+		
+			section.location {
+				display: block;
+			}
+		}
+
+	}
+
+	footer {
+		padding: 8px;
+		text-align: center;
+
+		p {
+			margin-bottom: 1em;
+		}
+
+		div#connect {
+			.aural
+		}
+	}
+
+}
+
+@media screen and (min-width:481px) and (max-width:550px) and (max-height:450px)  {
+
+	header p.tagline {
+			width: auto;
+			top: 46px;
+			left: 150px;
+			font-size: 160%;
+	}
+}
+
+
+@media only screen and (max-width:320px) {
+
+	header p.tagline {
+		display: none;
+
+		&.move-over {
+			display: none;
+		}
+	}
+}
+

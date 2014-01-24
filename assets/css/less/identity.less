@@ -1,0 +1,71 @@
+// All variables related to color and logos.
+
+@black: #000000;
+@white: #FFFFFF;
+@primary-color: hsla(39, 88%, 39%, 1.0); // orange
+@secondary-color: hsla(3, 71%, 23%, 1.0); // red
+@tertiary-color: hsla(206, 100%, 59%, 1.0); // blue
+@accent-color: hsla(113, 36%, 41%, 1.0); // green
+
+.decorative-fonts {
+	font-family:"yanone_kaffeesatzregular", sans-serif;
+}
+
+.default-fonts {
+	font-family: sans-serif;
+}
+
+.link-white {
+	a {
+		color: @white;
+		text-decoration: none;
+
+		&:visited {
+			color: @white;
+			text-decoration: none;
+		}
+
+		&:hover, &:focus, &.active {
+			color: @secondary-color;
+		}
+	}
+}
+
+.border {
+	border-color: darken(@primary-color, 10%);
+	border-style: solid;
+}
+
+.logo-white {
+	background-image: url(../img/logos/LRCmaster_white_transparent.png);
+	background-repeat: no-repeat;
+}
+
+.logo-black {
+	background-image: url(../img/logos/LRCmaster_black_transparent.png);
+	background-repeat: no-repeat;
+}
+
+// One-stop Gradient
+
+.one-stop-gradient (@first-color, @second-color) {
+	background: @first-color; /* Old browsers */
+	background: -moz-linear-gradient(top,  @first-color 0%, @second-color 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@first-color), color-stop(100%,@second-color)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  @first-color 0%, @second-color 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  @first-color 0%, @second-color 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  @first-color 0%, @second-color 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  @first-color 0%, @second-color 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@first-color', endColorstr='@second-color',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+// Globals
+.aural {
+	position: absolute; 
+  	overflow: hidden; 
+  	clip: rect(0 0 0 0); 
+  	height: 1px; width: 1px; 
+  	margin: -1px; padding: 0; border: 0;
+}
