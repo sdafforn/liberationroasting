@@ -21,6 +21,7 @@ h2, h3, h4 {
 	color: @tertiary-color;
 	.decorative-fonts;
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 0;
 }
 
 p { text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75) }
@@ -106,7 +107,7 @@ nav {
 		text-decoration: none;
 		.decorative-fonts;
 		font-weight: bold;
-		font-size: 200%;
+		font-size: 190%;
 		text-transform: uppercase;
 
 		&:visited {
@@ -136,7 +137,7 @@ nav {
 	padding: 0;
 	width: 80%;
 	.border;
-	background-color: hsla(0, 0%, 0%, .55);
+	background-color: hsla(0, 0%, 0%, .75);
 
 	
 	article {
@@ -146,7 +147,6 @@ nav {
 
 		&.selected {
 			display: block;
-
 		}
 
 		section {
@@ -159,6 +159,15 @@ nav {
 				border-width: 1px;
 				width: 100%;
 			}
+
+			a, a:visited {
+				color: @white;
+				text-decoration: underline;
+
+				&:active, &:hover, &:focus {
+					color: darken(@white, 20%);
+				}
+			}
 		}
 
 		section.location { 
@@ -170,16 +179,21 @@ nav {
 			margin-bottom: 3px;
 		}
 
+		h4 { 
+			font-size: 140%;
+			margin-bottom: 3px;
+		}
+
 		p { 
-			font-size: 110%;
+			font-size: 100%;
 			margin-top: 0;
-			font-weight: 100;
 
 			&.price {
 				color: darken(@white, 20%);
 			
 				.dollar {
 					color: @white;
+					font-weight: bold;
 				}
 			}
 		}
@@ -188,6 +202,10 @@ nav {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
+
+			li {
+				font-weight: normal;
+			}
 		}
 
 	}
