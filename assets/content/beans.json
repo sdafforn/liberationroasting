@@ -1,0 +1,18 @@
+[
+    {
+        "country": "Kenya",
+        "farm": "Kabare Co-op",
+        "region": "Kirinyaga District",
+        "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
+        "price": 16,
+        "mapurl": "https://goo.gl/maps/4w668"
+    },
+    {
+        "country": "Mexico",
+        "farm": "Finca Santa Rosa Farm",
+        "region": "La Concordia, Chiapas Region",
+        "description": "A sweet, lighter cup with hints of nut and cocoa.",
+        "price": 14,
+        "mapurl": "https://goo.gl/maps/gCuft"
+    }
+]
