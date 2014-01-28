@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Liberation Roasting Company - Indianapolis, Indiana</title>
+        <title>Liberation Roasting Company</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,19 +46,7 @@
                     <p>People frequently ask us what a given variety tastes like, and this isn't an unreasonable question. But we each have different palates, so my impression might be somewhat different than yours. We will describe our beans in fairly broad language and leave the nuances to you. Discovery is part of the joy of food and drink. Try new things and you will be rewarded.</p>
                 </section>
                 <section>
-                    <ul>
-                        <li>
-                            <h3>Kenya</h3>
-                            <h4>Kabare Co-op; Kirinyaga District <a href="https://goo.gl/maps/4w668" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a></h4>
-                            <p>Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.</p>
-                            <p class="price"><span class="dollar">$16.00</span> per pound</p>
-                        </li>
-                        <li>
-                            <h3>Mexico</h3>
-                            <h4>Finca Santa Rosa Farm; La Concordia, Chiapas Region <a href="https://goo.gl/maps/gCuft" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a></h4>
-                            <p>A sweet, lighter cup with hints of nut and cocoa.</p>
-                            <p class="price"><span class="dollar">$14.00</span> per pound</p>
-                        </li>
+                    <ul id="available_varieties">
                     </ul>
                 </section>
             </article>
@@ -135,6 +123,26 @@
 
                 $("p.tagline").addClass("move-over");
             });
+
+            // load current varieties
+            var $ul = $('#available_varieties');
+            var jqxhr = $.getJSON( "assets/content/beans.json", function() {
+            })
+              .done(function(data) {
+                $.each(data, function (i, bean) {
+                    var $li = $('<li>');
+                    $li.append('<h3>' + bean.country + '</h3>');
+                    var $h4 = $('<h4>' + bean.farm + '; ' + bean.region + '</h4>');
+                    $('<a href="' + bean.mapurl + '" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>').appendTo($h4);
+                    $h4.appendTo($li);
+                    $('<p>' + bean.description + '</p>').appendTo($li);
+                    $('<p class="price"><span class="dollar">$' + bean.price + '</span> per pound</p>').appendTo($li);
+                    $li.appendTo($ul);
+                });
+              })
+              .fail(function() {
+                $('<li>Well this is embarrassing. We seem to have had a problem loading our current varieties. Our apologies.</li>').appendTo($ul);
+              })
         });
         </script>
     </body>
