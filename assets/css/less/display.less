@@ -131,7 +131,7 @@ nav {
 
 #window {
 	border-width: 0 1px 0 1px;
-	margin: 96px auto 0;
+	margin: 0 auto;
 	min-height: 100%;
 	position: relative;
 	padding: 0;
@@ -139,7 +139,6 @@ nav {
 	.border;
 	background-color: hsla(0, 0%, 0%, .75);
 
-	
 	article {
 		display: none;
 		padding: 40px 10% 120px 50%;
@@ -153,6 +152,10 @@ nav {
 			position: relative;
 			max-width: 480px;
 			width: 100%;
+
+			&:nth-child(2) {
+				margin-top: 96px;
+			}
 
 			&.bio img {
 				.border;
