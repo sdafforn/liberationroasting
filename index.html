@@ -129,11 +129,7 @@
           var current_hash;
           var hash = '';
           if (param) {
-              hash += param;
-          }
-
-          if (hash.length > 0) {
-            hash = hash.substring(1);
+            hash = param.substring(1);
             if (location.hash.length > 0) {
               current_hash = location.hash.substring(1);
             }
