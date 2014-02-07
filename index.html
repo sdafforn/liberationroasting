@@ -111,6 +111,7 @@
     </script>
     <script>
         $(document).ready(function() {
+            $.ajaxSetup({ cache: false });
 
             $("a.menu-entry").click(function() {
 
@@ -131,9 +132,16 @@
               .done(function(data) {
                 $.each(data, function (i, bean) {
                     var $li = $('<li>');
-                    $li.append('<h3>' + bean.country + '</h3>');
-                    var $h4 = $('<h4>' + bean.farm + '; ' + bean.region + '</h4>');
-                    $('<a href="' + bean.mapurl + '" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>').appendTo($h4);
+                    var $h4;
+                    if(!bean.blend) {
+                        $li.append('<h3>' + bean.country + '</h3>');
+                        $h4 = $('<h4>' + bean.farm + '; ' + bean.region + '</h4>');
+                        $('<a href="' + bean.mapurl + '" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>').appendTo($h4);
+                    }
+                    else {
+                        $li.append('<h3>' + bean.blend + '</h3>');
+                        $h4 = $('<h4>' + bean.blendtype + '</h4>').css('padding-left', '0%');
+                    }
                     $h4.appendTo($li);
                     $('<p>' + bean.description + '</p>').appendTo($li);
                     $('<p class="price"><span class="dollar">$' + bean.price + '</span> per pound</p>').appendTo($li);
