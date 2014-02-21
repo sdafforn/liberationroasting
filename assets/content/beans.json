@@ -1,16 +1,18 @@
 [
     {
-        "country": "Brazil",
-        "farm": "Laranjal Farm",
-        "region": "Serra Negra",
-        "description": "Nice creamy body with nut and honey sweetness.",
-        "price": 14,
-        "mapurl": "https://goo.gl/maps/UqGwE"
+        "country": "Kenya",
+        "farm": "Karimikui Station, Rugento Farmers Co-op",
+        "region": "Kirinyaga",
+        "description": "The farm and region sound Asian, but this is a wonderfully complex bean from Kenya. Dark fruit, cocoa, and carmel, among many others, combine for a creamy, syrupy cup with great aroma. I'll cut the hyperbole short, but this one should not be missed.",
+        "price": 16,
+        "mapurl": "https://goo.gl/maps/8jlbG"
     },
     {
-        "blend": "Knuckles",
-        "blendtype": "Custom Blend",
-        "description": "Isn’t it strange when you order a Breakfast Blend or House Blend or Deluxe Ambiguous Blend that you almost never have any idea what that blend is comprised of? We certainly think so. Knuckles is a blend of beans from Ethiopia, El Salvador, and Sumatra, and we spent a lot of time getting this blend right. And by ‘right’ we mean each variety shines through, and yet the sum is still somehow greater than the parts. You’re not a commodity, don’t settle for commodity mystery blends. Knuckles: because we didn’t come here to screw around.",
-        "price": 16
+        "country": "Mexico",
+        "farm": "Finca Santa Rosa Farm",
+        "region": "La Concordia, Chiapas Region",
+        "description": "A sweet, lighter cup with hints of nut and cocoa.",
+        "price": 14,
+        "mapurl": "https://goo.gl/maps/gCuft"
     }
 ]
