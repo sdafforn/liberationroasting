@@ -1,18 +1,18 @@
 [
     {
-        "country": "Kenya",
-        "farm": "Karimikui Station, Rugento Farmers Co-op",
-        "region": "Kirinyaga",
-        "description": "The farm and region sound Asian, but this is a wonderfully complex bean from Kenya. Dark fruit, cocoa, and carmel, among many others, combine for a creamy, syrupy cup with great aroma. I'll cut the hyperbole short, but this one should not be missed.",
-        "price": 16,
-        "mapurl": "https://goo.gl/maps/8jlbG"
+        "country": "Brazil",
+        "farm": "Laranjal Farm",
+        "region": "Serra Negra",
+        "description": "Nice creamy body with nut and honey sweetness. A very nice and mild cup.",
+        "price": 14,
+        "mapurl": "https://goo.gl/maps/UqGwE"
     },
     {
-        "country": "Mexico",
-        "farm": "Finca Santa Rosa Farm",
-        "region": "La Concordia, Chiapas Region",
-        "description": "A sweet, lighter cup with hints of nut and cocoa.",
-        "price": 14,
-        "mapurl": "https://goo.gl/maps/gCuft"
+        "country": "Ethiopia",
+        "farm": "Various Small Holders",
+        "region": "Yirgacheffe Konga, Gedeo Region",
+        "description": "Sweet, floral, and just a little tart. You may get hints of peach and lemonade, even wine.",
+        "price": 15,
+        "mapurl": "https://goo.gl/maps/GwKc4"
     }
 ]
