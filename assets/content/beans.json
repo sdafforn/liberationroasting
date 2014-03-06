@@ -1,18 +1,16 @@
 [
     {
-        "country": "Brazil",
-        "farm": "Laranjal Farm",
-        "region": "Serra Negra",
-        "description": "Nice creamy body with nut and honey sweetness. A very nice and mild cup.",
-        "price": 14,
-        "mapurl": "https://goo.gl/maps/UqGwE"
+        "country": "Kenya",
+        "farm": "Kabare Co-op",
+        "region": "Kirinyaga District",
+        "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
+        "price": 16,
+        "mapurl": "https://goo.gl/maps/4w668"
     },
     {
-        "country": "Ethiopia",
-        "farm": "Various Small Holders",
-        "region": "Yirgacheffe Konga, Gedeo Region",
-        "description": "Sweet, floral, and just a little tart. You may get hints of peach and lemonade, even wine.",
-        "price": 15,
-        "mapurl": "https://goo.gl/maps/GwKc4"
+        "blend": "Stranger in the Alps",
+        "blendtype": "Custom Blend",
+        "description": "Sure, it’s an unusual name for a coffee blend, but it’s no less informative than ‘Breakfast Blend.’ This is coffee, there are rules. This blend of Ethiopian and Brazilian beans is an ode to Walter Sobchak. It’s uncompromising, has a lot of character, and will most certainly put a smile on your face. Walter may not abide amateurs, or fouls during league play, but he most certainly enjoys his coffee. Am I wrong?",
+        "price": 15
     }
 ]
