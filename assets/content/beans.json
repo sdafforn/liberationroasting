@@ -1,18 +1,16 @@
 [
     {
-        "country": "Brazil",
-        "farm": "Laranjal Farm",
-        "region": "Serra Negra",
-        "description": "Nice creamy body with nut and honey sweetness. A very nice and mild cup.",
-        "price": 14,
-        "mapurl": "https://goo.gl/maps/UqGwE"
-    },
-    {
         "country": "Kenya",
         "farm": "Kabare Co-op",
         "region": "Kirinyaga District",
         "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
         "price": 16,
         "mapurl": "https://goo.gl/maps/4w668"
+    },
+    {
+        "blend": "Mocha Java",
+        "blendtype": "Custom Blend",
+        "description": "Full-bodied, bittersweet, and complex. Our version of this classic is comprised of Ethiopian and Sumatran beans. I could tell you how delicious this cup is, but it's more fun to find out for yourself.",
+        "price": 15
     }
 ]
