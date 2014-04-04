@@ -1,16 +1,18 @@
 [
     {
-        "country": "Kenya",
-        "farm": "Kabare Co-op",
-        "region": "Kirinyaga District",
-        "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
-        "price": 16,
-        "mapurl": "https://goo.gl/maps/4w668"
+        "country": "Ethiopia",
+        "farm": "Various Small Holders",
+        "region": "Yirgacheffe Konga, Gedeo Region",
+        "description": "Sweet, floral, and just a little tart. You may get hints of peach and lemonade, even wine.",
+        "price": 15,
+        "mapurl": "https://goo.gl/maps/GwKc4"
     },
     {
-        "blend": "Mocha Java",
-        "blendtype": "Custom Blend",
-        "description": "Full-bodied, bittersweet, and complex. Our version of this classic is comprised of Ethiopian and Sumatran beans. I could tell you how delicious this cup is, but it's more fun to find out for yourself.",
-        "price": 15
+        "country": "Sumatra",
+        "farm": "Cooperative Bies Utama",
+        "region": "Mandheling (Fair Trade; Organic), Northern Aceh Region",
+        "description": "If you're unfamiliar with Sumatran coffees they can surprise you. Adjectives like 'rustic' and 'earthy' are often used to describe Sumatran varieties, and flavors tend to register mostly at the back of the palate. Malty, a little sweet, and maybe even an herbal hint, this is a very nice variety.",
+        "price": 15,
+        "mapurl": "https://goo.gl/maps/ZZNrf"
     }
 ]
