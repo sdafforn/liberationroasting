@@ -1,13 +1,5 @@
 [
     {
-        "country": "Brazil",
-        "farm": "Laranjal Farm",
-        "region": "Serra Negra",
-        "description": "Nice creamy body with nut and honey sweetness. A very nice and mild cup.",
-        "price": 14,
-        "mapurl": "https://goo.gl/maps/UqGwE"
-    },
-    {
         "country": "Guatemala - Decaf",
         "farm": "Various Small Holders",
         "region": "Huehuetenango",
@@ -16,11 +8,11 @@
         "mapurl": "https://goo.gl/maps/I3Dtm"
     },
     {
-        "country": "Kenya",
-        "farm": "Karimikui Station, Rugento Farmers Co-op",
-        "region": "Kirinyaga",
-        "description": "The farm and region sound Asian, but this is a wonderfully complex bean from Kenya. Dark fruit, cocoa, and carmel, among many others, combine for a creamy, syrupy cup with great aroma. I'll cut the hyperbole short, but this one should not be missed.",
-        "price": 16,
-        "mapurl": "https://goo.gl/maps/8jlbG"
+        "country": "Sumatra",
+        "farm": "Cooperative Bies Utama",
+        "region": "Mandheling (Fair Trade; Organic), Northern Aceh Region",
+        "description": "If you're unfamiliar with Sumatran coffees they can surprise you. Adjectives like 'rustic' and 'earthy' are often used to describe Sumatran varieties, and flavors tend to register mostly at the back of the palate. Malty, a little sweet, and maybe even an herbal hint, this is a very nice variety.",
+        "price": 15,
+        "mapurl": "https://goo.gl/maps/ZZNrf"
     }
 ]
