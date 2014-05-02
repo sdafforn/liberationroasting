@@ -1,5 +1,13 @@
 [
     {
+        "country": "Brazil",
+        "farm": "Laranjal Farm",
+        "region": "Serra Negra",
+        "description": "Nice creamy body with nut and honey sweetness. A very nice and mild cup.",
+        "price": 14,
+        "mapurl": "https://goo.gl/maps/UqGwE"
+    },
+    {
         "country": "Guatemala - Decaf",
         "farm": "Various Small Holders",
         "region": "Huehuetenango",
