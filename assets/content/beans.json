@@ -2,25 +2,17 @@
     {
         "country": "Brazil",
         "farm": "Laranjal Farm",
-        "region": "Serra Negra",
-        "description": "Nice creamy body with nut and honey sweetness. A very nice and mild cup.",
-        "price": 14,
+        "region": "Poços de Caldas",
+        "description": "Dark fruit hints, light chocolate and lemon with citrus acidity.",
+        "price": 15,
         "mapurl": "https://goo.gl/maps/UqGwE"
     },
     {
-        "country": "Guatemala - Decaf",
-        "farm": "Various Small Holders",
-        "region": "Huehuetenango",
-        "description": "If we hadn't told you this is a decaf you certainly wouldn't know it from the taste. With notes of chocolate, caramel, and bright fruit, this cup will not disappoint. Caffeine was extracted using the European Process, which is generally considered to result in the best decaffeinated cup. Whether you prefer decaf or are simply trying to cut down on your caffeine intake, you will enjoy this variety.",
-        "price": 15,
-        "mapurl": "https://goo.gl/maps/I3Dtm"
-    },
-    {
-        "country": "Sumatra",
-        "farm": "Cooperative Bies Utama",
-        "region": "Mandheling (Fair Trade; Organic), Northern Aceh Region",
-        "description": "If you're unfamiliar with Sumatran coffees they can surprise you. Adjectives like 'rustic' and 'earthy' are often used to describe Sumatran varieties, and flavors tend to register mostly at the back of the palate. Malty, a little sweet, and maybe even an herbal hint, this is a very nice variety.",
-        "price": 15,
-        "mapurl": "https://goo.gl/maps/ZZNrf"
+        "country": "Kenya",
+        "farm": "Kabare Co-op",
+        "region": "Kirinyaga District",
+        "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
+        "price": 16,
+        "mapurl": "https://goo.gl/maps/4w668"
     }
 ]
