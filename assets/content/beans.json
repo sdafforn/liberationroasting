@@ -14,5 +14,11 @@
         "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
         "price": 16,
         "mapurl": "https://goo.gl/maps/4w668"
+    },
+    {
+        "blend": "Synchronicity",
+        "blendtype": "Espresso",
+        "description": "Because none of this is coincidence.",
+        "price": 16
     }
 ]
