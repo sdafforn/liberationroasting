@@ -8,17 +8,19 @@
         "mapurl": "https://goo.gl/maps/sBrkA"
     },
     {
-        "country": "Ethiopia",
+        "country": "Guatemala - Decaf",
         "farm": "Various Small Holders",
-        "region": "Yirgacheffe Konga, Gedeo Region",
-        "description": "Sweet, floral, and just a little tart. You may get hints of peach and lemonade, even wine.",
+        "region": "Huehuetenango",
+        "description": "If we hadn't told you this is a decaf you certainly wouldn't know it from the taste. With notes of chocolate, caramel, and bright fruit, this cup will not disappoint. Caffeine was extracted using the European Process, which is generally considered to result in the best decaffeinated cup. Whether you prefer decaf or are simply trying to cut down on your caffeine intake, you will enjoy this variety.",
         "price": 15,
-        "mapurl": "https://goo.gl/maps/GwKc4"
+        "mapurl": "https://goo.gl/maps/I3Dtm"
     },
     {
-        "blend": "Synchronicity",
-        "blendtype": "Espresso",
-        "description": "Because none of this is coincidence.",
-        "price": 16
+        "country": "Kenya",
+        "farm": "Kabare Co-op",
+        "region": "Kirinyaga District",
+        "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
+        "price": 16,
+        "mapurl": "https://goo.gl/maps/4w668"
     }
 ]
