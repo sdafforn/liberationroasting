@@ -1,26 +1,34 @@
 [
     {
-        "country": "Brazil",
-        "farm": "Laranjal Farm",
-        "region": "Poços de Caldas",
-        "description": "Dark fruit hints, light chocolate and lemon with citrus acidity.",
+        "country": "Ethiopia",
+        "farm": "Various Small Holders",
+        "region": "Yirgacheffe Kochere, Gedeo Region",
+        "description": "Sweet and citric with bright acidity.",
         "price": 15,
-        "mapurl": "https://goo.gl/maps/sBrkA"
+        "mapurl": "https://goo.gl/maps/GwKc4"
     },
     {
-        "country": "Guatemala - Decaf",
+        "country": "Guatemala",
         "farm": "Various Small Holders",
-        "region": "Huehuetenango",
-        "description": "If we hadn't told you this is a decaf you certainly wouldn't know it from the taste. With notes of chocolate, caramel, and bright fruit, this cup will not disappoint. Caffeine was extracted using the European Process, which is generally considered to result in the best decaffeinated cup. Whether you prefer decaf or are simply trying to cut down on your caffeine intake, you will enjoy this variety.",
-        "price": 15,
+        "region": "Huehuetenango, El Quiche",
+        "description": "Rich and syrupy, you may note hints of carmel and dark, sweet fruits.",
+        "price": 14,
         "mapurl": "https://goo.gl/maps/I3Dtm"
     },
     {
         "country": "Kenya",
-        "farm": "Kabare Co-op",
-        "region": "Kirinyaga District",
-        "description": "Wonderful body and aroma with a mix of chocolate, dry fruit, and citrus.",
+        "farm": "Chania Estate",
+        "region": "Central Province, Thika",
+        "description": "Citrusy sweetness and a floral nose. Nice complexity and balance.",
         "price": 16,
-        "mapurl": "https://goo.gl/maps/4w668"
+        "mapurl": "https://goo.gl/maps/tQnzU"
+    },
+    {
+        "country": "Mexico",
+        "farm": "Rancho Bonito",
+        "region": "Altura Chiapas",
+        "description": "Light but full of carmel and mild citrus notes.",
+        "price": 14,
+        "mapurl": "https://goo.gl/maps/bmqk7"
     }
 ]
