@@ -73,56 +73,10 @@
             </article>
             <article id="findus" class="content">
                 <h2 class="aural">Find</h2>
-                <section id="findus">
+                <section id="findus-map">
                     <h3>Find Us</h3>
-                    <p>Where to find Liberation Roasting products around Indy:</p>
-                    <ul id="resellers">
-                        <li>
-                            <h4><a href="http://www.ambakery.net/" target="_blank">A&M Bakery Cafe</a>
-                            <a href="https://goo.gl/maps/TCgau" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://ballerinasandbruisers.com/" target="_blank">Ballerinas & Bruisers</a>
-                            <a href="https://goo.gl/maps/Fp1kV" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://bigdavesdeli.com/" target="_blank">Big Dave's Deli</a>
-                            <a href="https://goo.gl/maps/OkdFf" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://www.good-earth.com/" target="_blank">Good Earth Natural Food Co.</a>
-                            <a href="https://goo.gl/maps/VkEW4" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://www.moodymeats.com/retail-stores/the-avon-shop/" target="_blank">Moody's Butcher Shop - Avon</a>
-                            <a href="https://goo.gl/maps/EC5lu" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://www.moodymeats.com/retail-stores/center-grove-shop/" target="_blank">Moody's Butcher Shop - Center Grove</a>
-                            <a href="https://goo.gl/maps/4veAx" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://www.moodymeats.com/retail-stores/the-zionsville-shop/" target="_blank">Moody's Butcher Shop - Zionsville</a>
-                            <a href="https://goo.gl/maps/dOQR7" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://www.railepicureanmarket.com/" target="_blank">Rail Epicurean Market</a>
-                            <a href="https://goo.gl/maps/jF0lD" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                        <li>
-                            <h4><a href="http://www.sohocafecarmel.com/" target="_blank">SoHo Cafe & Gallery</a>
-                            <a href="https://goo.gl/maps/Nf4gu" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>
-                            </h4>
-                        </li>
-                    </ul>
+                    <p>Where to find Liberation Roasting coffee around Indy:</p>
+                    <div id="map"></div>
                 </section>
             </article>
             <article id="about" class="content">
@@ -181,6 +135,8 @@
             </div>
         </footer>
     <script src="assets/js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsgQ2aZFxG9JYcRFqcH4coM5hY8tCr_g0" type="text/javascript"></script>
+    <script src="assets/js/main.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -190,49 +146,5 @@
       ga('create', 'UA-39684191-1', 'liberationroasting.com');
       ga('send', 'pageview');
     </script>
-    <script>
-        $(document).ready(function() {
-            $.ajaxSetup({ cache: false });
-
-            $("a.menu-entry").click(function() {
-
-                $(".selected").removeClass("selected");
-                $(this).addClass("selected");
-                $(".content").removeClass("selected");
-
-                var content_show = $(this).attr("title");
-                $("#"+content_show).addClass("selected");
-
-                $("p.tagline").addClass("move-over");
-            });
-
-            // load current varieties
-            var $ul = $('#available_varieties');
-            var jqxhr = $.getJSON( "assets/content/beans.json", function() {
-            })
-              .done(function(data) {
-                $.each(data, function (i, bean) {
-                    var $li = $('<li>');
-                    var $h4;
-                    if(!bean.blend) {
-                        $li.append('<h3>' + bean.country + '</h3>');
-                        $h4 = $('<h4>' + bean.farm + '; ' + bean.region + '</h4>');
-                        $('<a href="' + bean.mapurl + '" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>').appendTo($h4);
-                    }
-                    else {
-                        $li.append('<h3>' + bean.blend + '</h3>');
-                        $h4 = $('<h4>' + bean.blendtype + '</h4>').css('padding-left', '0%');
-                    }
-                    $h4.appendTo($li);
-                    $('<p>' + bean.description + '</p>').appendTo($li);
-                    $('<p class="price"><span class="dollar">$' + bean.price + '</span> per pound</p>').appendTo($li);
-                    $li.appendTo($ul);
-                });
-              })
-              .fail(function() {
-                $('<li>Well this is embarrassing. We seem to have had a problem loading our current varieties. Our apologies.</li>').appendTo($ul);
-              })
-        });
-        </script>
     </body>
 </html>
