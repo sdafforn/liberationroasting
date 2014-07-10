@@ -1,24 +1,11 @@
 @import "identity";
-
-#map {
-    width:380px;
-    height:350px;
-}
-
-#map > a.location {
-  color: @black;
-}
-
 // All media queries for responsive layout... I guess
 
 // 1st break point
-// 975px by 625 pixels
+// 975px
 
 @media screen and (max-width: 975px) {
-  #map {
-    width: 300px;
-    height: 230px;
-  }
+
   header {
     height: 80px;
   }
@@ -58,36 +45,33 @@
     margin-top: 80px;
     min-height: 100%;
     width: 90%;
+
+    article {
+      padding-left: 40%;
+    }
+
   }
   footer {
-    padding: 15px;
+    padding: 15px 0;
   }
 }
+
 @media screen and (min-width: 976px) and (max-width: 10000px) and (max-height: 450px) {
-  #map {
-    width: 280px;
-    height: 230px;
-  }
+
   header p.tagline {
     width: auto;
     top: 90px;
     left: 360px;
   }
 }
+
 @media screen and (max-width: 850px) {
-  #map {
-    width: 300px;
-    height: 240px;
-  }
+
   article {
     padding: 10px 10% 120px 32%;
   }
 }
 @media screen and (max-width: 780px) {
-  #map {
-    width: 330px;
-    height: 280px;
-  }
   header {
     height: 62px;
   }
@@ -134,10 +118,6 @@
   }
 }
 @media screen and (min-width: 781px) and (max-width: 975px) and (max-height: 450px) {
-  #map {
-    width: 300px;
-    height: 230px;
-  }
   header p.tagline {
     width: auto;
     top: 70px;
@@ -145,10 +125,6 @@
   }
 }
 @media screen and (max-width: 650px) {
-  #map {
-    width: 300px;
-    height: 300px;
-  }
   header h1 {
     width: 150px;
     height: 130px;
@@ -162,6 +138,7 @@
   nav {
     left: 160px;
   }
+
   footer p span.city-state {
     position: absolute;
     left: -1000px;
@@ -170,12 +147,17 @@
     position: absolute;
     left: -1000px;
   }
+  footer div#connect {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 651px) and (max-width: 780px) and (max-height: 450px) {
-  #map {
-    width: 400px;
-    height: 300px;
-  }
   header p.tagline {
     width: auto;
     top: 45px;
@@ -183,10 +165,6 @@
   }
 }
 @media screen and (max-width: 550px) {
-  #map {
-    width: 350px;
-    height: 305px;
-  }
   header p.tagline {
     font-size: 180%;
     font-weight: bold;
@@ -229,12 +207,14 @@
     padding: 0;
     border: 0;
   }
+  footer div#connect {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 551px) and (max-width: 650px) and (max-height: 450px) {
-  #map {
-    width: 500px;
-    height: 250px;
-  }
   header p.tagline {
     width: auto;
     top: 46px;
@@ -243,10 +223,6 @@
   }
 }
 @media only screen and (max-width: 480px) {
-  #map {
-    width: 260px;
-    height: 440px;
-  }
   html {
     background-image: none;
   }
@@ -328,26 +304,44 @@
   }
 }
 @media screen and (min-width: 481px) and (max-width: 550px) and (max-height: 450px) {
-  #map {
-    width: 240px;
-    height: 400px;
-  }
   header p.tagline {
     width: auto;
     top: 46px;
     left: 150px;
     font-size: 160%;
   }
-}
-@media only screen and (max-width: 320px) {
-  #map {
-    width: 265px;
-    height: 300px;
+
+  nav ul li a {
+    font-size: 140%;
   }
+
+  section {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul li a {
+    font-size: 130%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
   header p.tagline {
     display: none;
   }
   header p.tagline.move-over {
     display: none;
   }
+  nav ul li a {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 319px) {
+
+  nav ul li a {
+    font-size: 110%;
+  }
+
 }
