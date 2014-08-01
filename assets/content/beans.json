@@ -1,18 +1,18 @@
 [
     {
-        "country": "Kenya",
-        "farm": "Chania Estate",
-        "region": "Central Province, Thika",
-        "description": "Citrusy sweetness and a floral nose. Nice full-bodied complexity.",
+        "country": "Ethiopia",
+        "farm": "Various Small Holders",
+        "region": "Yirgacheffe Kochere, Gedeo Region",
+        "description": "Sweet and citric with bright acidity.",
         "price": 15,
-        "mapurl": "https://goo.gl/maps/tQnzU"
+        "mapurl": "https://goo.gl/maps/GwKc4"
     },
     {
-        "country": "Mexico",
-        "farm": "Rancho Bonito",
-        "region": "Altura Chiapas",
-        "description": "Light but full of carmel and mild citrus notes.",
+        "country": "Guatemala",
+        "farm": "Various Small Holders",
+        "region": "Huehuetenango, El Quiche",
+        "description": "Rich and syrupy, you may note hints of carmel and dark, sweet fruits.",
         "price": 14,
-        "mapurl": "https://goo.gl/maps/bmqk7"
+        "mapurl": "https://goo.gl/maps/I3Dtm"
     }
 ]
