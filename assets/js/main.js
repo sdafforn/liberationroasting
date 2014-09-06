@@ -47,7 +47,7 @@ function loadVarieties(){
             }
             $h4.appendTo($li);
             $('<p>' + bean.description + '</p>').appendTo($li);
-            $('<p class="price"><span class="dollar">$' + bean.price + '</span> per pound ($8 per half pound)</p>').appendTo($li);
+            $('<p class="price"><span class="dollar">$' + bean.price + '</span> - 16oz</p>').appendTo($li);
             $li.appendTo($ul);
         });
       })

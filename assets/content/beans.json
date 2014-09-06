@@ -1,5 +1,29 @@
 [
     {
+        "country": "Ethiopia",
+        "farm": "Various Small Holders",
+        "region": "Yirgacheffe Kochere, Gedeo Region",
+        "description": "Sweet and citric with bright acidity.",
+        "price": 14,
+        "mapurl": "https://goo.gl/maps/GwKc4"
+    },
+    {
+        "country": "Guatemala",
+        "farm": "Various Small Holders",
+        "region": "Huehuetenango, El Quiche",
+        "description": "Rich and syrupy, you may note hints of carmel and dark, sweet fruits.",
+        "price": 14,
+        "mapurl": "https://goo.gl/maps/I3Dtm"
+    },
+    {
+        "country": "Guatemala - Decaf",
+        "farm": "Various Small Holders",
+        "region": "Huehuetenango",
+        "description": "If we hadn't told you this is a decaf you certainly wouldn't know it from the taste. With notes of chocolate, caramel, and bright fruit, this cup will not disappoint. Caffeine was extracted using the European Process, which is generally considered to result in the best decaffeinated cup. Whether you prefer decaf or are simply trying to cut down on your caffeine intake, you will enjoy this variety.",
+        "price": 15,
+        "mapurl": "https://goo.gl/maps/I3Dtm"
+    },
+    {
         "country": "Kenya",
         "farm": "Chania Estate",
         "region": "Central Province, Thika",
@@ -14,5 +38,11 @@
         "description": "Light but full of carmel and mild citrus notes.",
         "price": 14,
         "mapurl": "https://goo.gl/maps/bmqk7"
+    },
+    {
+        "blend": "El Jefe",
+        "blendtype": "Espresso",
+        "description": "Four varieties combine to make this one of the smoothest espressos you have encountered.",
+        "price": 16
     }
 ]
