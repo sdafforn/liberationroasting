@@ -37,8 +37,8 @@ function loadVarieties(){
             var $li = $('<li>');
             var $h4;
             if(!bean.blend) {
-                $li.append('<h3>' + bean.country + ' ' + bean.region + '</h3>');
-                $h4 = $('<h4>' + bean.farm + '</h4>');
+                $li.append('<h3>' + bean.country + ' ' + bean.farm + '</h3>');
+                $h4 = $('<h4>' + bean.region + '</h4>');
                 $('<a href="' + bean.mapurl + '" target="_blank"><i class="fa fa-map-marker icon" aria=hidden="true"></i><span class="aural">Google map</span></a>').appendTo($h4);
             }
             else {
