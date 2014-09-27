@@ -47,8 +47,20 @@ function loadVarieties(){
             }
             $h4.appendTo($li);
             $('<p>' + bean.description + '</p>').appendTo($li);
+            if(!bean.blend){
+              $('<p><a class="moreDetails" href="#more">More Detail</a></p>').appendTo($li);
+              var $more = $('<div>').hide();
+              $('<p>Varietal: ' + bean.varietal + '</p>').appendTo($more);
+              $('<p>Elevation: ' + bean.elevation + ' meters</p>').appendTo($more);
+              $('<p>Processing: ' + bean.process + '</p>').appendTo($more);
+              $more.appendTo($li);
+            }
             $('<p class="price"><span class="dollar">$' + bean.price + '</span> - 16oz</p>').appendTo($li);
             $li.appendTo($ul);
+        });
+        $(".moreDetails").click (function() {
+            $(this).text(this.text === 'More Detail' ? 'Less Detail' : 'More Detail');
+            $(this).parent().next().toggle();
         });
       })
       .fail(function() {
