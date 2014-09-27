@@ -9,8 +9,8 @@ $(document).ready(function() {
 });
 
 function navHandlers(){
-    $("a.menu-entry").click(function() {
-
+    $("a.menu-entry").click(function(e) {
+        e.preventDefault();
         $(".selected").removeClass("selected");
         $(this).addClass("selected");
         $(".content").removeClass("selected");
@@ -58,7 +58,8 @@ function loadVarieties(){
             $('<p class="price"><span class="dollar">$' + bean.price + '</span> - 16oz</p>').appendTo($li);
             $li.appendTo($ul);
         });
-        $(".moreDetails").click (function() {
+        $(".moreDetails").click (function(e) {
+            e.preventDefault();
             $(this).text(this.text === 'More Detail' ? 'Less Detail' : 'More Detail');
             $(this).parent().next().toggle();
         });
