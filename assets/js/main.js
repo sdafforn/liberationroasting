@@ -50,7 +50,7 @@ function loadVarieties(){
             if(!bean.blend){
               $('<p><a class="moreDetails" href="#more">More Detail</a></p>').appendTo($li);
               var $more = $('<div>').hide();
-              $('<p>Varietal: ' + bean.varietal + '</p>').appendTo($more);
+              $('<p>Varietal(s): ' + bean.varietal + '</p>').appendTo($more);
               $('<p>Elevation: ' + bean.elevation + ' meters</p>').appendTo($more);
               $('<p>Processing: ' + bean.process + '</p>').appendTo($more);
               $more.appendTo($li);
