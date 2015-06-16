@@ -141,6 +141,9 @@
   #window article h3 {
     font-size: 190%;
   }
+  #window article section {
+    max-width: 360px;
+  }
 }
 @media screen and (min-width: 781px) and (max-width: 975px) and (max-height: 450px) {
   header p.tagline {
@@ -189,6 +192,9 @@
   }
 }
 @media screen and (max-width: 550px) {
+  header {
+    background-color: black;
+  }
   header p.tagline {
     font-size: 180%;
     font-weight: bold;
@@ -209,6 +215,16 @@
   }
   #window article {
     padding: 10px 10% 120px 20%;
+  }
+  #window article section {
+    position: relative;
+    max-width: 480px;
+    overflow: visible;
+    top: auto;
+    left: auto;
+  }
+  footer {
+    background-color: black;
   }
   footer span.city-state {
     position: absolute;
