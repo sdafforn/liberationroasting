@@ -487,9 +487,7 @@ footer div#connect ul li:last-child {
   }
   #window {
     position: relative;
-    margin-top: 80px;
     min-height: 100%;
-    width: 90%;
   }
   #window article {
     padding-left: 40%;
@@ -545,9 +543,8 @@ footer div#connect ul li:last-child {
     font-size: 150%;
   }
   #window {
-    margin-top: 62px;
     min-height: 100%;
-    width: 90%;
+    width: 100%;
   }
   #window article {
     padding: 10px 10% 120px 32%;
@@ -617,7 +614,6 @@ footer div#connect ul li:last-child {
     left: 150px;
   }
   #window {
-    margin-top: 62px;
     min-height: 100%;
     width: 100%;
     border: none;
