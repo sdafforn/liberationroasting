@@ -1,1 +1,41 @@
-.decorative-fonts{font-family:yanone_kaffeesatzregular,sans-serif}.default-fonts{font-family:sans-serif}.link-white a{color:#fff;text-decoration:none}.link-white a:visited{color:#fff;text-decoration:none}.link-white a:hover,.link-white a:focus,.link-white a.active{color:#641511}.border{border-color:#8b5d09;border-style:solid}.logo-white{background-image:url(../img/logos/LRCmaster_white_transparent.png);background-repeat:no-repeat}.logo-black{background-image:url(../img/logos/LRCmaster_black_transparent.png);background-repeat:no-repeat}.aural{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}
+.decorative-fonts {
+  font-family: "yanone_kaffeesatzregular", sans-serif;
+}
+.default-fonts {
+  font-family: sans-serif;
+}
+.link-white a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.link-white a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.link-white a:hover,
+.link-white a:focus,
+.link-white a.active {
+  color: #641511;
+}
+.border {
+  border-color: #8b5d09;
+  border-style: solid;
+}
+.logo-white {
+  background-image: url(../img/logos/LRCmaster_white_transparent.png);
+  background-repeat: no-repeat;
+}
+.logo-black {
+  background-image: url(../img/logos/LRCmaster_black_transparent.png);
+  background-repeat: no-repeat;
+}
+.aural {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
