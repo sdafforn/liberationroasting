@@ -249,12 +249,14 @@ nav a.selected:active {
   display: block;
 }
 #window article section {
+  padding-right: 3%;
   position: fixed;
-  max-width: 480px;
+  max-width: calc(480px - 3%);
   width: 100%;
   height: calc(100% - 166px);
   top: 96px;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 #window article section.bio img {
   border-color: #8b5d09;

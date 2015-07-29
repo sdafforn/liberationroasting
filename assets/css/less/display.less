@@ -153,12 +153,14 @@ nav {
 		}
 
 		section {
+			padding-right: 3%;
 			position: fixed;
-			max-width: 480px;
+			max-width: calc(~"480px - 3%");
 			width: 100%;
 			height: calc(~"100% - 166px");
 			top: 96px;
-			overflow: scroll;
+			overflow-x: hidden;
+			overflow-y: scroll;
 
 			&.bio img {
 				.border;
