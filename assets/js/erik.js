@@ -1,4 +1,5 @@
 var jsonBaseURL = "http://liberationroasting.com/assets/";
+var jsonSuffix = ".jsonp";
 
 function jsonp(symptom) {
     // ensure we gracefully handle no symptom
@@ -8,7 +9,7 @@ function jsonp(symptom) {
       // ...assumes files are named by symptom
       var js = document.createElement("script");
       js.type = "text/javascript";
-      js.src = jsonBaseURL + symptom;
+      js.src = jsonBaseURL + symptom + jsonSuffix;
       document.getElementsByTagName("head")[0].appendChild(js);
     }
 };
