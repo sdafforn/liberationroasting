@@ -32,7 +32,7 @@ function injectMedicalCondition(conditions) {
     }
 }
 
-function detectSymptom() {
+var detectSymptom = function() {
   // inspect the page to understand
   // what symptom we need to request
   var div = document.getElementById('erik');
