@@ -1,5 +1,5 @@
 var jsonBaseURL = "http://liberationroasting.com/assets/js/";
-var jsonSuffix = ".json";
+var jsonSuffix = ".js";
 
 function jsonp(symptom) {
     // ensure we gracefully handle no symptom
