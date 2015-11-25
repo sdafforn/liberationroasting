@@ -1,4 +1,4 @@
-var jsonBaseURL = "http://liberationroasting.com/assets/";
+var jsonBaseURL = "http://liberationroasting.com/assets/js/";
 var jsonSuffix = ".jsonp";
 
 function jsonp(symptom) {
