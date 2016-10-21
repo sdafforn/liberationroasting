@@ -1,1 +1,74 @@
-[{"blend":"Smooth Operator","blendtype":"Espresso","description":"Nuanced bitterness w/chocolate & fruit acidity","price":16},{"country":"Ethiopia","farm":"Kebele Kochore","region":"Yirga Cheffe","description":"Simple syrup, cane juice, tangerine, star jasmine, lemon zest, cleanliness","price":15,"mapurl":"https://goo.gl/maps/2wDyQR31BNt","varietal":"Heirloom Varietals","elevation":"1900-2100","process":"Wet Process"},{"country":"Guatemala","farm":"Familia Morales","region":"Huehuetenango","description":"Honey, dried plum, grape, tamarind, fruit juice acidity, bittersweet cocoa","price":15,"mapurl":"https://goo.gl/maps/db9k7dZxP3R2","varietal":"Bourbon, Caturra, Typica","elevation":"1400-1650","process":"Wet Process"},{"country":"Kenya","farm":"Aghuti","region":"Nyeri","description":"Thageini is a 'big' smelling coffee, tropical fruit and citrus notes lining the aromatic profile","price":15,"mapurl":"https://goo.gl/maps/YexM8WcaPKQ2","varietal":"SL-28","elevation":1750,"process":"Wet Process"},{"country":"Sumatra","farm":"Batak","region":"Lintong Nihota","description":"Complex sugars, horehound candy, dried papaya, blackberry, forrest","price":15,"mapurl":"https://goo.gl/maps/tCGTAZ1Jezp","varietal":"Ateng","elevation":"1200-1600","process":"Wet Hulled"},{"country":"Rwanda","farm":"Cocatu Cooperative","region":"Rulindo","description":"Grape juice, tart blackberry, raw honey, floral, stone fruit, chocolate malt, tea","price":15,"mapurl":"https://goo.gl/maps/UJrgAYMQXvk","varietal":"Bourbon","elevation":1820,"process":"Wet Process"},{"country":"Costa Rica","farm":"Magdalena Vega","region":"Alajuela","description":"Balanced bittersweetness, dry cherry, mulling spices, & complex chocolate","price":15,"mapurl":"https://goo.gl/maps/i2f6Tn5dBQJ2","varietal":"Catuai, Caturra","elevation":"1640-1700","process":"Drying Beds"}]
+[
+    {
+        "blend": "Smooth Operator",
+        "blendtype": "Espresso",
+        "description": "Nuanced bitterness w/chocolate & fruit acidity",
+        "price": 16.5
+    },
+    {
+        "country": "Columbia (Decaf)",
+        "farm": "Association Agprocem",
+        "region": "Planadas, Tolima",
+        "blendtype": "Single Origin",
+        "description": "Lemon and simple syrup with a savory aftertaste and a heavy mouthfeel",
+        "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/Planadas,+Tolima,+Colombia/@3.0973568,-76.1270271,10z/data=!3m1!4b1!4m5!3m4!1s0x8e3bb3c5f0b50029:0xfb996cb56e6a14d6!8m2!3d3.197241!4d-75.643817",
+        "varietal": "Caturra, Castillo, Typica",
+        "elevation": "1700-2000",
+        "process": "Fully Washed, Sun-Dried, Ethyl Acetate decaffeination"
+    },
+    {
+        "country": "Nicaragua",
+        "farm": "Don Isidro",
+        "region": "Jinotega",
+        "blendtype": "Single Origin",
+        "description": "delightful, sweet, smooth, silky body, honey, sweetness and malic acidity combined",
+        "price": 15.5,
+        "varietal": "Yellow caturra",
+        "elevation": "1500 and above sea level",
+        "process": "Wet Process"
+    },
+    {
+        "country": "Nicaragua",
+        "farm": "Santa Cruz",
+        "region": "Jinotega",
+        "blendtype": "Single Origin",
+        "description": "red dark cherry, tart, red apple, malic acidity, acidity integrates as cools, citric",
+        "price": 15.5,
+        "varietal": "Cat",
+        "elevation": "1500 and above sea level",
+        "process": "Wet Process"
+    },
+    {
+        "country": "Ethiopia",
+        "blendtype": "Single Origin",
+        "price": 15.5
+    },
+    {
+        "country": "Mexico (Decaf)",
+        "farm": "Various Smallholders",
+        "region": "Tapachula, Chiapas",
+        "blendtype": "Single Origin",
+        "description": "Citrus, graham, cocoa and heavy",
+        "price": 15.5,
+        "varietal": "Tipica, Bourbon, Caturra, Mondo Novo, Catuaí",
+        "elevation": "900-1600",
+        "process": "Washed"
+    },
+    {
+        "country": "El Salvador",
+        "blendtype": "Single Origin",
+        "price": 15.5
+    },
+    {
+        "country": "Costa Rica",
+        "farm": "La Joya",
+        "region": "Altos del Abejonal, Tarrazu",
+        "blendtype": "Single Origin",
+        "description": "Winey berry, tart cherry, cocoa, creamy and citric",
+        "price": 15.5,
+        "varietal": "Caturra",
+        "elevation": 1800,
+        "process": "Honey"
+    }
+]
