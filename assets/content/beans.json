@@ -70,23 +70,11 @@
         "farm": "Finca Pinares",
         "region": "Volcán de San Salvador",
         "blendtype": "Single Origin",
-        "description": "Sugar cane juice, toffee, tart lemon, sage and smooth.",
+        "description": "Sugar cane juice, toffee, tart lemon, sage and smooth",
         "price": 15.5,
         "mapurl": "https://www.google.com/maps/place/San+Salvador+Volcano/@13.7425322,-89.281683,15z/data=!4m5!3m4!1s0x8f632582fea1e46b:0x68a9fead04b793b!8m2!3d13.7365824!4d-89.2870993",
         "varietal": "Bourbon",
         "elevation": "1235-1580",
         "process": "Washed"
-    },
-    {
-        "country": "Costa Rica",
-        "farm": "La Joya",
-        "region": "Altos del Abejonal, Tarrazu",
-        "blendtype": "Single Origin",
-        "description": "Winey berry, tart cherry, cocoa, creamy and citric",
-        "price": 15.5,
-        "mapurl": "https://www.google.com/maps/place/San+Jos%C3%A9+Province,+Tarrazu,+Costa+Rica/@9.6030977,-84.1407068,12z/data=!3m1!4b1!4m5!3m4!1s0x8fa1119775f53bb7:0x3baeaa73c5ff715c!8m2!3d9.6051515!4d-84.0378894",
-        "varietal": "Caturra",
-        "elevation": 1800,
-        "process": "Honey"
     }
 ]
