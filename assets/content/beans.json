@@ -6,16 +6,16 @@
         "price": 16.5
     },
     {
-        "country": "Colombia (Decaf)",
-        "farm": "Association Agprocem",
-        "region": "Planadas, Tolima",
+        "country": "Mexico (Decaf)",
+        "farm": "Various Smallholders",
+        "region": "Tapachula, Chiapas",
         "blendtype": "Single Origin",
-        "description": "Lemon and simple syrup with a savory aftertaste and a heavy mouthfeel",
+        "description": "Citrus, graham, cocoa and heavy",
         "price": 15.5,
-        "mapurl": "https://www.google.com/maps/place/Planadas,+Tolima,+Colombia/@3.0973568,-76.1270271,10z/data=!3m1!4b1!4m5!3m4!1s0x8e3bb3c5f0b50029:0xfb996cb56e6a14d6!8m2!3d3.197241!4d-75.643817",
-        "varietal": "Caturra, Castillo, Typica",
-        "elevation": "1700-2000",
-        "process": "Fully Washed, Sun-Dried, Ethyl Acetate decaffeination"
+        "mapurl": "https://www.google.com/maps/place/Chiapas,+Mexico/@16.2514211,-94.4994422,7z/data=!4m5!3m4!1s0x858d44b49757ce67:0xcf0033824619d615!8m2!3d16.7569318!4d-93.1292353",
+        "varietal": "Tipica, Bourbon, Caturra, Mondo Novo, Catuaí",
+        "elevation": "900-1600",
+        "process": "Washed"
     },
     {
         "country": "Nicaragua",
@@ -30,18 +30,6 @@
         "process": "Wet Process"
     },
     {
-        "country": "Nicaragua",
-        "farm": "Santa Cruz",
-        "region": "Jinotega",
-        "blendtype": "Single Origin",
-        "description": "red dark cherry, tart, red apple, malic acidity, acidity integrates as cools, citric",
-        "price": 15.5,
-        "mapurl": "https://www.google.com/maps/place/Jinotega,+Nicaragua/@13.0898788,-86.0168128,14z/data=!4m5!3m4!1s0x8f723e88cc57ff89:0xb9bb1035556496ca!8m2!3d13.0883907!4d-85.9993997",
-        "varietal": "Cat",
-        "elevation": "1500 and above sea level",
-        "process": "Wet Process"
-    },
-    {
         "country": "Ethiopia",
         "farm": "Kayon Mountain Farm",
         "region": "Shakiso",
@@ -52,18 +40,6 @@
         "varietal": "Heirloom Varietals",
         "elevation": "1700-2000",
         "process": "Dry Process"
-    },
-    {
-        "country": "Mexico (Decaf)",
-        "farm": "Various Smallholders",
-        "region": "Tapachula, Chiapas",
-        "blendtype": "Single Origin",
-        "description": "Citrus, graham, cocoa and heavy",
-        "price": 15.5,
-        "mapurl": "https://www.google.com/maps/place/Chiapas,+Mexico/@16.2514211,-94.4994422,7z/data=!4m5!3m4!1s0x858d44b49757ce67:0xcf0033824619d615!8m2!3d16.7569318!4d-93.1292353",
-        "varietal": "Tipica, Bourbon, Caturra, Mondo Novo, Catuaí",
-        "elevation": "900-1600",
-        "process": "Washed"
     },
     {
         "country": "El Salvador",
