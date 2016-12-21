@@ -1,1 +1,56 @@
-[{"blend":"Smooth Operator","blendtype":"Espresso","description":"Nuanced bitterness w/chocolate & fruit acidity","price":16},{"country":"Ethiopia","farm":"Kebele Kochore","region":"Yirga Cheffe","description":"Simple syrup, cane juice, tangerine, star jasmine, lemon zest, cleanliness","price":15,"mapurl":"https://goo.gl/maps/2wDyQR31BNt","varietal":"Heirloom Varietals","elevation":"1900-2100","process":"Wet Process"},{"country":"Guatemala","farm":"Familia Morales","region":"Huehuetenango","description":"Honey, dried plum, grape, tamarind, fruit juice acidity, bittersweet cocoa","price":15,"mapurl":"https://goo.gl/maps/db9k7dZxP3R2","varietal":"Bourbon, Caturra, Typica","elevation":"1400-1650","process":"Wet Process"},{"country":"Kenya","farm":"Aghuti","region":"Nyeri","description":"Thageini is a 'big' smelling coffee, tropical fruit and citrus notes lining the aromatic profile","price":15,"mapurl":"https://goo.gl/maps/YexM8WcaPKQ2","varietal":"SL-28","elevation":1750,"process":"Wet Process"},{"country":"Sumatra","farm":"Batak","region":"Lintong Nihota","description":"Complex sugars, horehound candy, dried papaya, blackberry, forrest","price":15,"mapurl":"https://goo.gl/maps/tCGTAZ1Jezp","varietal":"Ateng","elevation":"1200-1600","process":"Wet Hulled"},{"country":"Rwanda","farm":"Cocatu Cooperative","region":"Rulindo","description":"Grape juice, tart blackberry, raw honey, floral, stone fruit, chocolate malt, tea","price":15,"mapurl":"https://goo.gl/maps/UJrgAYMQXvk","varietal":"Bourbon","elevation":1820,"process":"Wet Process"},{"country":"Costa Rica","farm":"Magdalena Vega","region":"Alajuela","description":"Balanced bittersweetness, dry cherry, mulling spices, & complex chocolate","price":15,"mapurl":"https://goo.gl/maps/i2f6Tn5dBQJ2","varietal":"Catuai, Caturra","elevation":"1640-1700","process":"Drying Beds"}]
+[
+    {
+        "blend": "Smooth Operator",
+        "blendtype": "Espresso",
+        "description": "Nuanced bitterness w/chocolate & fruit acidity",
+        "price": 16.5
+    },
+    {
+        "country": "Mexico (Decaf)",
+        "farm": "Various Smallholders",
+        "region": "Tapachula, Chiapas",
+        "blendtype": "Single Origin",
+        "description": "Citrus, graham, cocoa and heavy",
+        "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/Chiapas,+Mexico/@16.2514211,-94.4994422,7z/data=!4m5!3m4!1s0x858d44b49757ce67:0xcf0033824619d615!8m2!3d16.7569318!4d-93.1292353",
+        "varietal": "Tipica, Bourbon, Caturra, Mondo Novo, Catuaí",
+        "elevation": "900-1600",
+        "process": "Washed"
+    },
+    {
+        "country": "Nicaragua",
+        "farm": "Don Isidro",
+        "region": "Jinotega",
+        "blendtype": "Single Origin",
+        "description": "delightful, sweet, smooth, silky body, honey, sweetness and malic acidity combined",
+        "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/Jinotega,+Nicaragua/@13.0898788,-86.0168128,14z/data=!4m5!3m4!1s0x8f723e88cc57ff89:0xb9bb1035556496ca!8m2!3d13.0883907!4d-85.9993997",
+        "varietal": "Yellow caturra",
+        "elevation": "1500 and above sea level",
+        "process": "Wet Process"
+    },
+    {
+        "country": "Ethiopia",
+        "farm": "Kayon Mountain Farm",
+        "region": "Shakiso",
+        "blendtype": "Single Origin",
+        "description": "Ripe cranberry, tamarind, cane juice, flame grape, ruby grapefruit",
+        "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/Shakiso,+Ethiopia/@5.7657266,38.9016651,15z/data=!4m21!1m15!4m14!1m6!1m2!1s0x17b993861036756f:0x3d71c9bd61b4a870!2sShakiso+Shak%C4%ABso!2m2!1d38.9119977!2d5.7645403!1m6!1m2!1s0x17b993861036756f:0x3d71c9bd61b4a870!2sShakiso,+Ethiopia!2m2!1d38.9119977!2d5.7645403!3m4!1s0x17b993861036756f:0x3d71c9bd61b4a870!8m2!3d5.7645403!4d38.9119977",
+        "varietal": "Heirloom Varietals",
+        "elevation": "1700-2000",
+        "process": "Dry Process"
+    },
+    {
+        "country": "El Salvador",
+        "farm": "Finca Pinares",
+        "region": "Volcán de San Salvador",
+        "blendtype": "Single Origin",
+        "description": "Sugar cane juice, toffee, tart lemon, sage and smooth",
+        "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/San+Salvador+Volcano/@13.7425322,-89.281683,15z/data=!4m5!3m4!1s0x8f632582fea1e46b:0x68a9fead04b793b!8m2!3d13.7365824!4d-89.2870993",
+        "varietal": "Bourbon",
+        "elevation": "1235-1580",
+        "process": "Washed"
+    }
+]
