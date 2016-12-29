@@ -40,17 +40,5 @@
         "varietal": "Heirloom Varietals",
         "elevation": "1700-2000",
         "process": "Dry Process"
-    },
-    {
-        "country": "El Salvador",
-        "farm": "Finca Pinares",
-        "region": "Volcán de San Salvador",
-        "blendtype": "Single Origin",
-        "description": "Sugar cane juice, toffee, tart lemon, sage and smooth",
-        "price": 15.5,
-        "mapurl": "https://www.google.com/maps/place/San+Salvador+Volcano/@13.7425322,-89.281683,15z/data=!4m5!3m4!1s0x8f632582fea1e46b:0x68a9fead04b793b!8m2!3d13.7365824!4d-89.2870993",
-        "varietal": "Bourbon",
-        "elevation": "1235-1580",
-        "process": "Washed"
     }
 ]
