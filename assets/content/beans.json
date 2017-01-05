@@ -36,6 +36,7 @@
         "blendtype": "Single Origin",
         "description": "Citric with red pepper",
         "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/Aceh,+Indonesia/@4.0432596,94.4039747,7z/data=!3m1!4b1!4m5!3m4!1s0x30399bdf507cc4bd:0x1039d80b220ca60!8m2!3d4.695135!4d96.7493993",
         "varietal": "Various Catimor types",
         "elevation": "1200–1600",
         "process": "Semi-Washed"
@@ -47,6 +48,7 @@
         "blendtype": "Single Origin",
         "description": "Peanut and smooth",
         "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/Estaci%C3%B3n+de+Servicio+Le%C3%B3n+Cort%C3%A9s/@9.7766968,-85.0664083,8z/data=!4m5!3m4!1s0x8fa11a72a329867f:0x25919c0461f217ec!8m2!3d9.6821289!4d-84.0390043",
         "varietal": "Caturra, Catuai",
         "elevation": "1650-1700",
         "process": "Fully Washed"
@@ -58,6 +60,7 @@
         "blendtype": "Single Origin",
         "description": "Mild, citric and sweet",
         "price": 15.5,
+        "mapurl": "https://www.google.com/maps/place/San+Pedro+La+Laguna,+Guatemala/@14.6900229,-91.276776,15z/data=!3m1!4b1!4m5!3m4!1s0x858eb5c859508437:0x5f1f62f51882946b!8m2!3d14.6888639!4d-91.2686443",
         "varietal": "Typica, Bourbon, Caturra, Catuai",
         "elevation": "1500-1600",
         "process": "Fully Washed and Sundried"
