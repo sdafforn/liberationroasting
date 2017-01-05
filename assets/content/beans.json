@@ -30,15 +30,36 @@
         "process": "Wet Process"
     },
     {
-        "country": "Ethiopia",
-        "farm": "Kayon Mountain Farm",
-        "region": "Shakiso",
+        "country": "Sumatra",
+        "farm": "Various smallholder farmers",
+        "region": "Nagro Aceh Darusalam",
         "blendtype": "Single Origin",
-        "description": "Ripe cranberry, tamarind, cane juice, flame grape, ruby grapefruit",
+        "description": "Citric with red pepper",
         "price": 15.5,
-        "mapurl": "https://www.google.com/maps/place/Shakiso,+Ethiopia/@5.7657266,38.9016651,15z/data=!4m21!1m15!4m14!1m6!1m2!1s0x17b993861036756f:0x3d71c9bd61b4a870!2sShakiso+Shak%C4%ABso!2m2!1d38.9119977!2d5.7645403!1m6!1m2!1s0x17b993861036756f:0x3d71c9bd61b4a870!2sShakiso,+Ethiopia!2m2!1d38.9119977!2d5.7645403!3m4!1s0x17b993861036756f:0x3d71c9bd61b4a870!8m2!3d5.7645403!4d38.9119977",
-        "varietal": "Heirloom Varietals",
-        "elevation": "1700-2000",
-        "process": "Dry Process"
+        "varietal": "Various Catimor types",
+        "elevation": "1200–1600",
+        "process": "Semi-Washed"
+    },
+    {
+        "country": "Costa Rica",
+        "farm": "CoopeTarrazu Producers",
+        "region": "León Cortés",
+        "blendtype": "Single Origin",
+        "description": "Peanut and smooth",
+        "price": 15.5,
+        "varietal": "Caturra, Catuai",
+        "elevation": "1650-1700",
+        "process": "Fully Washed"
+    },
+    {
+        "country": "Guatemala",
+        "farm": "Various smallholder farmers",
+        "region": "San Pedro, Atitlan",
+        "blendtype": "Single Origin",
+        "description": "Mild, citric and sweet",
+        "price": 15.5,
+        "varietal": "Typica, Bourbon, Caturra, Catuai",
+        "elevation": "1500-1600",
+        "process": "Fully Washed and Sundried"
     }
 ]
