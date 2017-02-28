@@ -1,9 +1,9 @@
-  [
+ [
     {
         "blend": "Rick's Potion #9",
         "blendtype": "Espresso",
         "description": "Bright fruit forward blend with earthy nuance",
-        "price": 16.5
+        "price": 17
     },
     {
         "country": "Mexico (Decaf)",
@@ -67,6 +67,7 @@
     },
     {
         "country": "Ethiopia",
+        "farm": "Baraka Buna",
         "region": "Kochore",
         "blendtype": "Single Origin",
         "description": "Intense sweetness, perfumey florals, fresh baked goods and cleanliness",
