@@ -1,4 +1,4 @@
- [
+[
     {
         "blend": "Rick's Potion #9",
         "blendtype": "Espresso",
@@ -18,18 +18,6 @@
         "process": "Washed"
     },
     {
-        "country": "Nicaragua",
-        "farm": "Don Isidro",
-        "region": "Jinotega",
-        "blendtype": "Single Origin",
-        "description": "delightful, sweet, smooth, silky body, honey, sweetness and malic acidity combined",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Jinotega,+Nicaragua/@13.0898788,-86.0168128,14z/data=!4m5!3m4!1s0x8f723e88cc57ff89:0xb9bb1035556496ca!8m2!3d13.0883907!4d-85.9993997",
-        "varietal": "Yellow caturra",
-        "elevation": "1500 and above sea level",
-        "process": "Wet Process"
-    },
-    {
         "country": "Sumatra",
         "farm": "Various smallholder farmers",
         "region": "Nagro Aceh Darusalam",
@@ -40,18 +28,6 @@
         "varietal": "Various Catimor types",
         "elevation": "1200–1600",
         "process": "Semi-Washed"
-    },
-    {
-        "country": "Costa Rica",
-        "farm": "CoopeTarrazu Producers",
-        "region": "León Cortés",
-        "blendtype": "Single Origin",
-        "description": "Peanut and smooth",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Estaci%C3%B3n+de+Servicio+Le%C3%B3n+Cort%C3%A9s/@9.7766968,-85.0664083,8z/data=!4m5!3m4!1s0x8fa11a72a329867f:0x25919c0461f217ec!8m2!3d9.6821289!4d-84.0390043",
-        "varietal": "Caturra, Catuai",
-        "elevation": "1650-1700",
-        "process": "Fully Washed"
     },
     {
         "country": "Guatemala",
