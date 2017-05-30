@@ -7,7 +7,7 @@
     },
     {
         "country": "Mexico (Decaf)",
-        "farm": "Various Smallholders",
+        "farm": "Various smallholder farmers",
         "region": "Tapachula, Chiapas",
         "blendtype": "Single Origin",
         "description": "Citrus, graham, cocoa and heavy",
@@ -16,30 +16,6 @@
         "varietal": "Tipica, Bourbon, Caturra, Mondo Novo, Catuaí",
         "elevation": "900-1600",
         "process": "Washed"
-    },
-    {
-        "country": "Sumatra",
-        "farm": "Various smallholder farmers",
-        "region": "Nagro Aceh Darusalam",
-        "blendtype": "Single Origin",
-        "description": "Citric with red pepper",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Aceh,+Indonesia/@4.0432596,94.4039747,7z/data=!3m1!4b1!4m5!3m4!1s0x30399bdf507cc4bd:0x1039d80b220ca60!8m2!3d4.695135!4d96.7493993",
-        "varietal": "Various Catimor types",
-        "elevation": "1200–1600",
-        "process": "Semi-Washed"
-    },
-    {
-        "country": "Guatemala",
-        "farm": "Various smallholder farmers",
-        "region": "San Pedro, Atitlan",
-        "blendtype": "Single Origin",
-        "description": "Mild, citric and sweet",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/San+Pedro+La+Laguna,+Guatemala/@14.6900229,-91.276776,15z/data=!3m1!4b1!4m5!3m4!1s0x858eb5c859508437:0x5f1f62f51882946b!8m2!3d14.6888639!4d-91.2686443",
-        "varietal": "Typica, Bourbon, Caturra, Catuai",
-        "elevation": "1500-1600",
-        "process": "Fully Washed and Sundried"
     },
     {
         "country": "Ethiopia",
@@ -51,7 +27,7 @@
         "mapurl": "https://www.google.com/maps/place/Chelelektu,+Ethiopia/@5.9682078,38.0453753,11z/data=!4m5!3m4!1s0x17ba7005d874413b:0xe96e4f2394904f35!8m2!3d6.0054451!4d38.1503685",
         "varietal": "Heirloom Varietals",
         "elevation": "1800-2100",
-        "process": "Dry Process"
+        "process": "Dry process"
     },
     {
         "country": "Brazil",
@@ -63,6 +39,40 @@
         "mapurl": "https://www.google.com/maps/place/Hotel+fazenda+moinho+dagua/@-22.2412925,-44.4832403,12z/data=!4m5!3m4!1s0x9ef601357f8093:0xb21ca8e9e124b4ed!8m2!3d-22.2117409!4d-44.3823034",
         "varietal": "Bourbon ",
         "elevation": 1250,
-        "process": "Dry Process"
+        "process": "Dry process"
+    },
+    {
+        "country": "Costa Rica",
+        "farm": "La Trinidad Community",
+        "region": "León Cortés",
+        "blendtype": "Single Origin",
+        "description": "Toffee and almond flavors with mild floral and chocolate; sweet with tart citric acidity",
+        "price": 16,
+        "mapurl": "https://www.google.com/maps/place/Colegio+Le%C3%B3n+Cort%C3%A9s+Castro/@7.2589035,-103.4723079,4z/data=!4m12!1m6!3m5!1s0x8fa05901fd1403c7:0x88caade1788701e3!2sColegio+Le%C3%B3n+Cort%C3%A9s+Castro!8m2!3d10.0820555!4d-84.3123025!3m4!1s0x8fa05901fd1403c7:0x88caade1788701e3!8m2!3d10.0820555!4d-84.3123025",
+        "varietal": "Caturra, Catuai",
+        "elevation": "1600-1750",
+        "process": "Fully washed"
+    },
+    {
+        "country": "Papua New Guinea",
+        "farm": "Various smallholder farmers",
+        "region": "Waghi Valley, Western Highlands",
+        "blendtype": "Single Origin",
+        "description": "Sweet and savory with grapefruit and stewed tomato",
+        "price": 16,
+        "mapurl": "https://www.google.com/maps/place/New+Guinea+Highlands/@-4.0788836,137.1561443,17z/data=!4m13!1m7!3m6!1s0x6822c2c9097b3eaf:0x392e001af636eb11!2sNew+Guinea+Highlands!3b1!8m2!3d-4.078889!4d137.158333!3m4!1s0x6822c2c9097b3eaf:0x392e001af636eb11!8m2!3d-4.078889!4d137.158333",
+        "varietal": "Arusha, Blue Mountain, San Ramon",
+        "elevation": "1400-1800",
+        "process": "Fully washed and dried at central dry mill"
+    },
+    {
+        "country": "Kenya",
+        "blendtype": "Single Origin",
+        "description": "Chocolate, grapefruit and peanut with intense acidity",
+        "price": 16,
+        "mapurl": "https://www.google.com/maps/place/Nairobi,+Kenya/@-1.6260442,36.4264707,8z/data=!4m13!1m7!3m6!1s0x182f1172d84d49a7:0xf7cf0254b297924c!2sNairobi,+Kenya!3b1!8m2!3d-1.2920659!4d36.8219462!3m4!1s0x182f1172d84d49a7:0xf7cf0254b297924c!8m2!3d-1.2920659!4d36.8219462",
+        "varietal": "Chocolate, grapefruit and peanut with intense acidity",
+        "elevation": 1750,
+        "process": "Washed"
     }
 ]
