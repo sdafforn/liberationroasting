@@ -18,30 +18,6 @@
         "process": "Washed"
     },
     {
-        "country": "Ethiopia",
-        "farm": "Baraka Buna",
-        "region": "Kochore",
-        "blendtype": "Single Origin",
-        "description": "Intense sweetness, perfumey florals, fresh baked goods and cleanliness",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Chelelektu,+Ethiopia/@5.9682078,38.0453753,11z/data=!4m5!3m4!1s0x17ba7005d874413b:0xe96e4f2394904f35!8m2!3d6.0054451!4d38.1503685",
-        "varietal": "Heirloom Varietals",
-        "elevation": "1800-2100",
-        "process": "Dry process"
-    },
-    {
-        "country": "Brazil",
-        "farm": "Nazareth Dias Pereira",
-        "region": "Fazenda do Sertao",
-        "blendtype": "Single Origin",
-        "description": "Sweetened almond milk, raw sugar, dark cocoa, aromatic wood",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Hotel+fazenda+moinho+dagua/@-22.2412925,-44.4832403,12z/data=!4m5!3m4!1s0x9ef601357f8093:0xb21ca8e9e124b4ed!8m2!3d-22.2117409!4d-44.3823034",
-        "varietal": "Bourbon ",
-        "elevation": 1250,
-        "process": "Dry process"
-    },
-    {
         "country": "Costa Rica",
         "farm": "La Trinidad Community",
         "region": "León Cortés",
@@ -67,6 +43,7 @@
     },
     {
         "country": "Kenya",
+        "region": "Kichwa Tembo",
         "blendtype": "Single Origin",
         "description": "Chocolate, grapefruit and peanut with intense acidity",
         "price": 16,
