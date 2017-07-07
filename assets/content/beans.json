@@ -51,5 +51,27 @@
         "varietal": "Chocolate, grapefruit and peanut with intense acidity",
         "elevation": 1750,
         "process": "Washed"
+    },
+    {
+        "country": "Ethiopia",
+        "farm": "Werka Coffee Washing Station",
+        "region": "Nensebo, Werka",
+        "blendtype": "Single Origin",
+        "description": "Very floral flavors with honey, chocolate and raisin; soft, juicy sweetness and complex fruit acidity",
+        "price": 16,
+        "mapurl": "https://www.google.com/maps/place/Oromia,+Ethiopia/@6.8733497,34.0201633,6z/data=!3m1!4b1!4m5!3m4!1s0x17c6f2306a426001:0xc018ced563b22059!8m2!3d7.5460377!4d40.6346851",
+        "varietal": "Heirloom Ethiopian varieties",
+        "elevation": "1900-2050",
+        "process": "Washed"
+    },
+    {
+        "country": "Java",
+        "blendtype": "Single Origin",
+        "description": "Up front citric acidity of fruit and sweet vegetables, chased with a nutty aftertaste",
+        "price": 16,
+        "mapurl": "https://www.google.com/maps/place/Java/@-7.3057286,105.3957837,6z/data=!3m1!4b1!4m5!3m4!1s0x2e7aa07ed2323237:0x86fe1c59d6abed60!8m2!3d-7.6145292!4d110.7122465",
+        "varietal": "Arabica",
+        "elevation": 1300,
+        "process": "Washed"
     }
 ]
