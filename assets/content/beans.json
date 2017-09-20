@@ -18,61 +18,51 @@
         "process": "Washed"
     },
     {
-        "country": "Costa Rica",
-        "farm": "La Trinidad Community",
-        "region": "León Cortés",
+        "country": "Burundi",
+        "farm": "Rubanda",
+        "region": "Mutambu",
         "blendtype": "Single Origin",
-        "description": "Toffee and almond flavors with mild floral and chocolate; sweet with tart citric acidity",
+        "description": "Brisk lemon, graham cracker, raspberry tea, roast versatility",
         "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Colegio+Le%C3%B3n+Cort%C3%A9s+Castro/@7.2589035,-103.4723079,4z/data=!4m12!1m6!3m5!1s0x8fa05901fd1403c7:0x88caade1788701e3!2sColegio+Le%C3%B3n+Cort%C3%A9s+Castro!8m2!3d10.0820555!4d-84.3123025!3m4!1s0x8fa05901fd1403c7:0x88caade1788701e3!8m2!3d10.0820555!4d-84.3123025",
-        "varietal": "Caturra, Catuai",
-        "elevation": "1600-1750",
-        "process": "Fully washed"
-    },
-    {
-        "country": "Papua New Guinea",
-        "farm": "Various smallholder farmers",
-        "region": "Waghi Valley, Western Highlands",
-        "blendtype": "Single Origin",
-        "description": "Sweet and savory with grapefruit and stewed tomato",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/New+Guinea+Highlands/@-4.0788836,137.1561443,17z/data=!4m13!1m7!3m6!1s0x6822c2c9097b3eaf:0x392e001af636eb11!2sNew+Guinea+Highlands!3b1!8m2!3d-4.078889!4d137.158333!3m4!1s0x6822c2c9097b3eaf:0x392e001af636eb11!8m2!3d-4.078889!4d137.158333",
-        "varietal": "Arusha, Blue Mountain, San Ramon",
-        "elevation": "1400-1800",
-        "process": "Fully washed and dried at central dry mill"
-    },
-    {
-        "country": "Kenya",
-        "farm": "AA",
-        "region": "Kichwa Tembo",
-        "blendtype": "Single Origin",
-        "description": "Chocolate, grapefruit and peanut with intense acidity",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Nairobi,+Kenya/@-1.6260442,36.4264707,8z/data=!4m13!1m7!3m6!1s0x182f1172d84d49a7:0xf7cf0254b297924c!2sNairobi,+Kenya!3b1!8m2!3d-1.2920659!4d36.8219462!3m4!1s0x182f1172d84d49a7:0xf7cf0254b297924c!8m2!3d-1.2920659!4d36.8219462",
-        "varietal": "Chocolate, grapefruit and peanut with intense acidity",
-        "elevation": 1750,
-        "process": "Washed"
+        "mapurl": "https://www.google.com/maps/place/Mutambu,+Burundi/@-3.5299122,29.4268691,16z/data=!3m1!4b1!4m5!3m4!1s0x19c17542dcc5e013:0x4bdb954952cbe2de!8m2!3d-3.5296253!4d29.4317168",
+        "varietal": "Bourbon",
+        "elevation": "1400-1900",
+        "process": "Wet Process"
     },
     {
         "country": "Ethiopia",
-        "farm": "Werka Coffee Washing Station",
-        "region": "Nensebo, Werka",
+        "farm": "Mormora Guji Highland",
+        "region": "Shakiso",
         "blendtype": "Single Origin",
-        "description": "Very floral flavors with honey, chocolate and raisin; soft, juicy sweetness and complex fruit acidity",
+        "description": "Intense brew, rhubarb, strawberry milk, berry lambic",
         "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Oromia,+Ethiopia/@6.8733497,34.0201633,6z/data=!3m1!4b1!4m5!3m4!1s0x17c6f2306a426001:0xc018ced563b22059!8m2!3d7.5460377!4d40.6346851",
-        "varietal": "Heirloom Ethiopian varieties",
-        "elevation": "1900-2050",
-        "process": "Washed"
+        "mapurl": "https://www.google.com/maps/place/Shakiso,+Ethiopia/@5.6198295,38.6870884,10z/data=!4m5!3m4!1s0x17b993861036756f:0x3d71c9bd61b4a870!8m2!3d5.7645403!4d38.9119977",
+        "varietal": "Heirloom Varietals",
+        "elevation": "2000-2300",
+        "process": "Dry Process"
     },
     {
-        "country": "Java",
+        "country": "Costa Rica",
+        "farm": "Finca Jose",
+        "region": "Chirripo",
         "blendtype": "Single Origin",
-        "description": "Up front citric acidity of fruit and sweet vegetables, chased with a nutty aftertaste",
+        "description": "Bracing tea, dried strawberry, cinnamon stick, carob",
         "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Java/@-7.3057286,105.3957837,6z/data=!3m1!4b1!4m5!3m4!1s0x2e7aa07ed2323237:0x86fe1c59d6abed60!8m2!3d-7.6145292!4d110.7122465",
-        "varietal": "Arabica",
-        "elevation": 1300,
-        "process": "Washed"
+        "mapurl": "https://www.google.com/maps/dir//Chirrip%C3%B3+National+Park,+San+Jos%C3%A9+Province,+P%C3%A9rez+Zeled%C3%B3n,+Costa+Rica/@9.4961789,-83.656473,11z/data=!4m15!1m6!3m5!1s0x8fa14ac81e02a64f:0x62c0b48bcbb5004c!2sChirrip%C3%B3+National+Park!8m2!3d9.5134327!4d-83.4946218!4m7!1m0!1m5!1m1!1s0x8fa14ac81e02a64f:0x62c0b48bcbb5004c!2m2!1d-83.4946218!2d9.5134327",
+        "varietal": "Catuai, Caturra",
+        "elevation": 1950,
+        "process": "Washed and dried at dry mill"
+    },
+    {
+        "country": "Tanzania",
+        "farm": "Tarime",
+        "region": "Mara",
+        "blendtype": "Single Origin",
+        "description": "Light brown sugar, bittering cocoa, dark grape, green apple, tea",
+        "price": 16,
+        "mapurl": "https://www.google.com/maps/place/Tarime,+Tanzania/@-1.3475837,34.3398209,13z/data=!3m1!4b1!4m2!3m1!1s0x19d33102f1fa5639:0x3281d5ca7ebb6f45?hl=en",
+        "varietal": "Bourbon",
+        "elevation": "1200-1400",
+        "process": "Wet Process"
     }
 ]
