@@ -52,17 +52,5 @@
         "varietal": "Ateng, Djember, Typica",
         "elevation": "1500-1800",
         "process": "Wet-hulled"
-    },
-    {
-        "country": "Tanzania",
-        "farm": "Tarime",
-        "region": "Mara",
-        "blendtype": "Single Origin",
-        "description": "Light brown sugar, bittering cocoa, dark grape, green apple, tea",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Tarime,+Tanzania/@-1.3475837,34.3398209,13z/data=!3m1!4b1!4m2!3m1!1s0x19d33102f1fa5639:0x3281d5ca7ebb6f45?hl=en",
-        "varietal": "Bourbon",
-        "elevation": "1200-1400",
-        "process": "Wet Process"
     }
 ]
