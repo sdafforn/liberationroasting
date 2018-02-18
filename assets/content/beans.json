@@ -18,39 +18,39 @@
         "process": "Washed"
     },
     {
-        "country": "Ethiopia",
-        "farm": "Sadi Loya cooperative",
-        "region": "Jimma",
+        "country": "Mexico",
+        "farm": "Finca Guadalupe Zaju",
+        "region": "Tapachula, Soconusco, Chiapas",
         "blendtype": "Single Origin",
-        "description": "Lavender, delicate sweetness, dried green apple, lemon tea",
+        "description": "Mild, sweet, clean and smooth with lemon and a nutty aftertaste",
         "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Jimma,+Ethiopia/@7.6750099,36.8028679,13z/data=!3m1!4b1!4m5!3m4!1s0x17adb882f6e6a723:0xf45a83bb90208fd8!8m2!3d7.6738908!4d36.8357927",
-        "varietal": "Heirloom Varietals",
-        "elevation": "1800-1900",
-        "process": "Wet Process"
+        "mapurl": "https://www.google.com/maps/place/Chiapas,+Mexico/@16.246814,-94.5052204,7z/data=!3m1!4b1!4m5!3m4!1s0x858d44b49757ce67:0xcf0033824619d615!8m2!3d16.7569318!4d-93.1292353",
+        "varietal": "Various Arabica varieties including Star Maya, Bourbon, and hybrids",
+        "elevation": 1000,
+        "process": "Washed"
     },
     {
-        "country": "Guatemala",
-        "farm": "Huehuetenango",
-        "region": "La Libertad",
+        "country": "Peru",
+        "farm": "2,000 smallholder farmer members",
+        "region": "Cajamarca",
         "blendtype": "Single Origin",
-        "description": "Caramelized sugar, cinnamon/raisin toast, coffee cake, berry",
+        "description": "Sweet and citric with a heavy mouthfeel; chocolate, toffee and mild floral flavor",
         "price": 16,
-        "mapurl": "https://www.google.com/maps/place/La+Libertad,+Guatemala/@16.7868736,-90.1350977,14z/data=!3m1!4b1!4m5!3m4!1s0x85f55b0883764ded:0x971d4f2234cf8855!8m2!3d16.7883087!4d-90.1167463",
+        "mapurl": "https://www.google.com/maps/place/Cajamarca,+Peru/@-7.1606346,-78.5393079,13z/data=!3m1!4b1!4m5!3m4!1s0x91b25afd3fc7d087:0xea80a2b94d876b2b!8m2!3d-7.1617465!4d-78.5127855",
         "varietal": "Bourbon, Caturra, Typica",
-        "elevation": 1700,
-        "process": "Wet Process"
+        "elevation": "1200-2200",
+        "process": "Washed"
     },
     {
-        "country": "Sumatra",
-        "farm": "Suku Batak",
-        "region": "Lintong",
+        "country": "Ethiopia",
+        "farm": "Various smallholder farmers",
+        "region": "Foge, Guanga, Yirgacheffe",
         "blendtype": "Single Origin",
-        "description": "Leathery, herbaceaus, basil, chicory, bittersweet",
+        "description": "Rich chocolate with winey berry and cocoa flavors with a peanut aftertaste; sweet with nice fruit acidity and a smooth mouthfeel",
         "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Lintong,+Borbor,+Toba+Samosir+Regency,+North+Sumatra,+Indonesia/@2.2510333,99.162337,12z/data=!3m1!4b1!4m5!3m4!1s0x302de2e04be5ef47:0x2211f1c32156e649!8m2!3d2.2628405!4d99.245302",
-        "varietal": "Ateng, Djember, Typica",
-        "elevation": "1500-1800",
-        "process": "Wet-hulled"
+        "mapurl": "https://www.google.com/maps/place/Yirga+Chefe,+Ethiopia/@6.1596273,38.1942057,15z/data=!3m1!4b1!4m5!3m4!1s0x17b09db05770838b:0x562149495abef2e9!8m2!3d6.1620447!4d38.2058155",
+        "varietal": "Heirloom Ethiopian varieties",
+        "elevation": "1780-1860",
+        "process": "Natural"
     }
 ]
