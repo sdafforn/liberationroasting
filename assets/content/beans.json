@@ -1,4 +1,4 @@
-    [
+   [
     {
         "blend": "Bruce The Protector",
         "blendtype": "Espresso",
@@ -18,48 +18,15 @@
         "process": "Washed"
     },
     {
-        "country": "Ethiopia",
-        "farm": "Kundi Gagi",
-        "region": "Illubabor",
+        "country": "Guatemala",
+        "farm": "Finca Quejina",
+        "region": "Concepción Huista, Petatán, Huehuetenango",
         "blendtype": "Single Origin",
-        "description": "sticky dried fruit notes like raisin and plum, natural apricot, and prune",
+        "description": "Smooth, full and savory with a nutty character and hint of chocolate",
         "price": 16,
-        "varietal": "Heirloom Types",
-        "elevation": "1700-2200",
-        "process": "Wet Process"
-    },
-    {
-        "country": "Sumatra",
-        "farm": "Raja Batak",
-        "region": "Lintong",
-        "blendtype": "Single Origin",
-        "description": "malt syrup, ginger and burdock root accents, natural dried apricot, bold bittersweet cocoa tones, and sweet tobacco",
-        "price": 16,
-        "mapurl": "https://www.google.com/maps/place/Lintong,+Borbor,+Toba+Samosir+Regency,+North+Sumatra,+Indonesia/@2.2510333,99.162337,12z/data=!3m1!4b1!4m5!3m4!1s0x302de2e04be5ef47:0x2211f1c32156e649!8m2!3d2.2628405!4d99.245302",
-        "varietal": "Typica Types",
-        "elevation": "1500-1800",
-        "process": "Giling Basah"
-    },
-    {
-        "country": "Rwanda",
-        "farm": "Mutovu Cooperative",
-        "region": "Nyamasheke",
-        "blendtype": "Single Origin",
-        "description": "apple-like fruited brightness, sweet spice, and caramel-vanilla sweetness",
-        "price": 16,
-        "varietal": "Bourbon Types",
-        "elevation": "1800-1950",
-        "process": "Wet Process"
-    },
-    {
-        "country": "Costa Rica",
-        "farm": "Finca Jose",
-        "region": "La Piedra de Rivas",
-        "blendtype": "Single Origin",
-        "description": "apple tea with cinnamon stick, and an understated dried berry note marks",
-        "price": 16,
-        "varietal": "Caturra Types",
-        "elevation": 1950,
-        "process": "Machine Washed"
+        "mapurl": "https://goo.gl/maps/AFrN29ZoVfB2",
+        "varietal": "Caturra",
+        "elevation": 2050,
+        "process": "Fully washed (Using less water, per Anacafe standard), patio dried 5-7 days"
     }
 ]
